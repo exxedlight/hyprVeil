@@ -1,0 +1,86 @@
+window {
+margin: 0px;
+border: 1px solid rgba(189, 147, 249, .5);
+border-radius: 10px;
+padding: 20px;
+opacity: 1;
+background: linear-gradient(45deg, rgba(0,0,0,.3), rgba(115, 81, 115, 0.2));
+}
+
+#input {
+margin: 5px;
+border: none;
+color: #f8f8f2;
+/*background-color: #44475a;*/
+border-radius: 15px;
+background-color: rgba(44,44,44,.3);
+border: 1px solid silver;
+box-shadow: 5px 5px 5px rgba(32, 121, 102, .3);
+border-top: none;
+border-right: none;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+/*background-color: rgba(40, 42, 54);*/
+background-color: transparent;
+padding: 10px;
+padding-top: 20px;
+border-radius: 15px;
+background: linear-gradient(to right, rgba(0,0,0,.3), transparent);
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background: transparent;
+backdrop-filter: blur(5px);
+border-radius: 10px;
+padding: 5px;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #f8f8f2;
+text-shadow: 1px 1px 1px black;
+} 
+
+#entry.activatable #text {
+color: #282a36;
+}
+
+#entry > * {
+color: #f8f8f2;
+outline: none;
+border: none;
+/*background-color: rgba(0,0,0,.5);*/
+border-radius: 15px;
+padding: 0 10px;
+}
+
+#entry:selected {
+background-color: rgba(68, 71, 90, .5);
+border-radius: 20px;
+padding: 0 10px;
+border: none;
+}
+
+#entry:selected #text {
+font-weight: bold;
+}
+
+#entry,
+#entry:focus,
+#entry:selected {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    outline: dashed blue;
+}

@@ -1,0 +1,164 @@
+/* ignore GTK theme */
+* {
+	all: initial;
+}
+
+@import "current-theme.css";
+@import "styles/fonts.css";
+@import "styles/global.css";
+@import "styles/modules-center.css";
+@import "styles/modules-left.css";
+@import "styles/modules-right.css";
+@import "styles/states.css";
+
+#custom-prev{
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 0 5px;
+	padding-right: 7px;
+}
+#custom-next{
+	font-size: 20px;
+	padding: 0 5px;
+	padding-right: 7px;
+	border-radius: 10px;
+}
+#mpris{
+	padding: 0 6px;
+	border-radius: 100%;
+	border: 2px solid rgba(169, 169, 169, 0.271);
+	margin: 0 5px;
+	background-color: rgba(79, 13, 141, 0.205);
+	font-size: 18px;
+	font-family: 'Symbols Nerd Font';
+	transition: .3s;
+}
+#mpris.stopped,
+#mpris.paused{
+	padding: 0 8px;
+	border-radius: 5px;
+	border: none;
+	background: radial-gradient(rgba(79, 13, 141, 0.905), transparent);
+}
+
+#mpris:hover,
+#custom-volup:hover,
+#custom-voldown:hover{
+	background-color: rgba(79, 13, 141, 0.405);
+	color: white;
+	text-shadow: 2px 2px 2px rgba(238, 130, 238, 0.522);
+}
+
+#custom-cava{
+	color: #a3a3a3;
+	text-shadow: 1px 2px 1px rgba(194, 55, 245, 0.384);
+	font-family: 'bargraph';
+    font-size: 14px;
+	border-radius: 10px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	padding: 0 0;
+	margin: 0;
+	background: radial-gradient(rgba(166, 0, 244, 0.356), rgba(175, 35, 235, 0.164), rgba(111, 40, 141, 0.2), transparent);
+	border-bottom: 3px solid rgba(71, 52, 81, 0.438);
+	/*background: url("./trapezoid_accent.svg");*/
+	transition: .3s;
+}
+
+.modules-center{
+	/*background-color: rgba(0, 0, 0, 0.3);*/
+	background: url('./trapezoid.svg');
+	background-size: cover;
+	padding: 0 90px;
+	padding-right: 45px;
+}
+.modules-right{
+	/*background-color: rgba(0, 0, 0, 0.3);*/
+	background: url('./trapezoid.svg');
+	background-size: cover;
+	padding-left: 90px;
+}
+
+#custom-mpris-text{
+	font-size: 12px;
+	font-family: "Pixelon";
+	padding: 0 3px;
+}
+#custom-play-volume,
+#custom-play-count{
+	font-size: 12px;
+	background: url("./trapezoid_accent.svg");
+	background-size: cover;
+	padding: 0 15px;
+	font-family: 'Symbols Nerd Font';
+	border-radius: 10px;
+	border-top-right-radius: 4px;
+}
+#custom-wallpaper-type-changer{
+	font-family: 'Symbols Nerd Font';
+	font-size: 16px;
+	padding: 0 5px;
+	margin-right: 10px;
+}
+#custom-wallpaper-type-changer:hover{
+	color: rgba(255,255,255,.8);
+	text-shadow: 2px 2px 2px rgba(238, 130, 238, 0.522);
+}
+
+
+#custom-power-plan-eco,
+#custom-power-plan-balanced,
+#custom-power-plan-performance{
+	padding: 0 3px;
+	font-family: 'Symbols Nerd Font', monospace;
+	font-size: 14px;
+	border-radius: 100%;
+	margin: 0 1px;
+	transition: .3s ease-in-out;
+	color: rgba(255,255,255,.8);
+	border: 1px solid transparent;
+}
+#custom-power-plan-eco{
+	margin-left: 10px;
+}
+#custom-power-plan-performance{
+	padding: 0 3px;
+	margin-right: 10px;
+}
+
+#custom-power-plan-eco.active,
+#custom-power-plan-balanced.active,
+#custom-power-plan-performance.active{
+	border: 1px solid silver;
+}
+#custom-power-plan-eco.active{
+	border-right-color: transparent;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	background: linear-gradient(to right, black, rgba(139, 56, 208, 0.555), transparent);
+}
+#custom-power-plan-balanced.active{
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-radius: 0;
+	background: radial-gradient(rgba(139, 56, 208, 0.555), rgba(139, 56, 208, 0.555), transparent);
+}
+#custom-power-plan-performance.active{
+	border-left-color: transparent;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	background: linear-gradient(to left, black, rgba(139, 56, 208, 0.555), transparent);
+}
+
+#custom-power-plan-eco.inactive:hover,
+#custom-power-plan-balanced.inactive:hover,
+#custom-power-plan-performance.inactive:hover{
+	padding: 0 15px;
+	background-color: transparent;
+}
+#custom-power-plan-performance.inactive:hover{
+	padding-right: 0;
+}
+#custom-power-plan-eco.inactive:hover{
+	padding-left: 0;
+}

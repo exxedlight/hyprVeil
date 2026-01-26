@@ -1,0 +1,10 @@
+{
+    "custom/mpris-text": {
+        "exec": "playerctl metadata --format '{{title}} - {{artist}}' --player=audacious",
+        "interval": 1,
+        "min-length": 35,
+        "max-length": 35,
+        "on-click": "audtool mainwin-show off && audtool mainwin-show on",
+        "on-click-right": "audtool mainwin-show off"
+    }
+}
