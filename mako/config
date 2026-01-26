@@ -1,0 +1,24 @@
+# Положение
+anchor=top-right
+margin=0,10,2,0
+
+# Внешний вид
+background-color=#21222C99
+text-color=#ffffff
+border-color=#343746
+border-radius=5,15,5,15
+border-size=1
+padding=5
+font=Symbols Nerd Font 10
+
+# Поведение
+default-timeout=0
+ignore-timeout=1
+sort=-time
+max-visible=10
+
+# Группировка
+# group-by=app-name
+
+history=1
+on-notify=exec canberra-gtk-play -f ~/Env/Sounds/notification.wav >/dev/null 2>&1 &

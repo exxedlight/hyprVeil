@@ -1,0 +1,32 @@
+window {
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#input {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 16px;
+    color: white;
+}
+
+#inner-box {
+    padding: 0;
+}
+
+#scroll {
+    padding: 0;
+}
+
+#text-item {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 18px;
+    color: white;
+    padding: 12px;
+    margin: 4px;
+    border-radius: 6px;
+}
+
+#text-item:selected {
+    background-color: rgba(255, 255, 255, 0.15);
+}

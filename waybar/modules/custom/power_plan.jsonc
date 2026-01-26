@@ -1,0 +1,35 @@
+{
+    "custom/power-plan-eco": {
+        "exec": "~/.config/waybar/scripts/power-status.sh eco",
+        //"on-click": "powerprofilesctl set power-saver && notify-send \"Power\" \"Power plan changed: Power-Saver 󰾅\"",
+        "on-click": "~/.config/waybar/scripts/power-plan-change.sh eco",
+        "format": "",
+        "return-type": "json",
+        "tooltip-format": "Power-Saver",
+        "min-length": 2,
+        "max-length": 2,
+        "interval": 1
+    },
+    "custom/power-plan-balanced": {
+        "exec": "~/.config/waybar/scripts/power-status.sh balanced",
+        //"on-click": "powerprofilesctl set balanced && notify-send \"Power\" \"Power plan changed: Balanced 󰾅\"",
+        "on-click": "~/.config/waybar/scripts/power-plan-change.sh balanced",
+        "format": "󰾅",
+        "return-type": "json",
+        "tooltip-format": "Balanced",
+        "min-length": 2,
+        "max-length": 2,
+        "interval": 1
+    },
+    "custom/power-plan-performance": {
+        "exec": "~/.config/waybar/scripts/power-status.sh performance",
+        //"on-click": "powerprofilesctl set performance && notify-send \"Power\" \"Power plan changed: Performance 󱐌\"",
+        "on-click": "~/.config/waybar/scripts/power-plan-change.sh performance",
+        "format": "󱐌", //  
+        "return-type": "json",
+        "tooltip-format": "Max Performance",
+        "min-length": 2,
+        "max-length": 2,
+        "interval": 1
+    }
+}
