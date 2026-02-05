@@ -12,7 +12,9 @@
 
 		"~/.config/waybar/modules/mpris.jsonc",
 		"~/.config/waybar/modules/battery.jsonc",
-		"~/.config/waybar/modules/custom/cava.jsonc"
+		"~/.config/waybar/modules/custom/cava.jsonc",
+
+		"~/.config/waybar/modules/custom/player-group.jsonc"
 	],
 
 	/*------------
@@ -26,20 +28,26 @@
 		"custom/right_div#1"
 	],
 	"modules-center": [
-		"mpris",
+		/*"mpris",
 		"custom/cava",
 		"custom/play-count",
+		"custom/player-list-button",
 		"custom/mpris-text",
-		"custom/play-volume"
+		"custom/play-volume"*/
+		//"custom/player-progress"
+
+		"group/player-module"
 	],
 	"modules-right": [
 		"custom/wallpaper-type-changer",
+		"custom/ultrasaver",
 		"custom/power-plan-eco",
 		"custom/power-plan-balanced",
 		"custom/power-plan-performance",
-		"custom/left_div#8",
+		"custom/hypridle",
+		//"custom/left_div#8",
 		"battery",
-		"custom/left_inv#2",
+		//"custom/left_inv#2",
 		"custom/power_menu"
 	],
 

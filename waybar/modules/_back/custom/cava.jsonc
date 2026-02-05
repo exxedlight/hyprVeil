@@ -8,6 +8,8 @@
         //"on-click": "playerctl next",
         //"on-click-right": "playerctl previous",
         "tooltip": false,
-        "on-click-middle": "audacious"
+        "on-click-middle": "audacious",
+        "on-scroll-up": "playerctl volume 0.05+",
+		"on-scroll-down": "playerctl volume 0.05-"
     }
 }

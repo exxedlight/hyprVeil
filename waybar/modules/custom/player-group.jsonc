@@ -1,0 +1,14 @@
+{
+    "group/player-module": {
+        "orientation": "horizontal",
+        "modules": [
+            "mpris",
+            "custom/cava",
+            "custom/play-count",
+            "custom/player-list-button",
+            "custom/mpris-text",
+            "custom/player-song-time",
+            "custom/play-volume"
+        ]
+    }
+}

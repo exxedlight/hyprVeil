@@ -1,8 +1,8 @@
 {
 	"theme": "Adaptive.sublime-theme",
-	"font_size": 10,
+	"font_size": 9,
 	"hot_exit": "disabled",
 	"hot_exit_projects": false,
 	"remember_workspace": false,
-	"remember_open_files": false 
+	"remember_open_files": false, 
 }

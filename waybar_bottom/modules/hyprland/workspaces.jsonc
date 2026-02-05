@@ -12,6 +12,7 @@
 			"kitty": "",
 			"vivaldi": "",
 			"Audacious": "󰐍",
+			"deadbeef": "󰐍",
 			"thunar": "",
 			"telegram": "",
 			"lutris": "",
@@ -24,6 +25,10 @@
 			"steam": "",
 			"org.qbittorrent.qBittorrent": "󰰩",
 			"org.gnome.FileRoller": "",
+			"zen": "",
+			"class<.*calculator.*>": "󰃬",
+			"class<tk> title<.*adb.*>": "",
+			"com.exx.quickdesktop": "",
 			"title<.* - (.*) - VSCodium>": "codium $1"  // captures part of the window title and formats it into output
 		},
 		"format-icons": {

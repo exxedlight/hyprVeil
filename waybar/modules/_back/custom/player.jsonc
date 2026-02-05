@@ -1,9 +1,7 @@
 {
     "custom/play-volume": {
         "exec": "echo \"  $(audtool get-volume)%\"",
-        "interval": 1,
-        "on-scroll-up": "playerctl volume 0.05+",
-		"on-scroll-down": "playerctl volume 0.05-"
+        "interval": 1
     },
     "custom/play-count": {
         "exec": "~/.config/waybar/scripts/audacious-count.sh",
@@ -20,13 +18,5 @@
     },
     "custom/player-progress": {
         "format": " "
-    },
-    "custom/player-song-time": {
-        "exec": "~/.config/waybar/scripts/player-song-time.sh",
-        "interval": 1,
-        "format": "[{text}]",
-        "return-type": "json",
-        "min-length": 12,
-        "max-length": 12
     }
 }
