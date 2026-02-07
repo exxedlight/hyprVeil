@@ -1,6 +1,9 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/.config/waybar/README.md",
+		"/home/exxedlight/.config/hypr/hyprpaper.conf",
+		"/home/exxedlight/.config/README.md",
 		"/home/exxedlight/.config/fastfetch/config.jsonc",
 		"/home/exxedlight/.config/fastfetch/logo.txt",
 		"/home/exxedlight/.config/fish/fish_variables",
@@ -23,7 +26,6 @@
 		"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh",
 		"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Game version.txt",
 		"/home/exxedlight/.config/waypaper/config.ini",
-		"/home/exxedlight/.config/hypr/hyprpaper.conf",
 		"/home/exxedlight/Env/Scripts/ffmpeg-convert.sh",
 		"/home/exxedlight/Env/Backup/grub",
 		"/home/exxedlight/Рабочий стол/orders.txt",
@@ -111,11 +113,11 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1770375773,
+	"next_update_check": 1770462173,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1005.0,
+		"new_window_height": 1080.0,
 		"new_window_maximized": true,
 		"new_window_position":
 		[
@@ -161,6 +163,9 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/waybar/README.md",
+				"/home/exxedlight/.config/hypr/hyprpaper.conf",
+				"/home/exxedlight/.config/README.md",
 				"/home/exxedlight/.config/fastfetch/config.jsonc",
 				"/home/exxedlight/.config/fastfetch/logo.txt",
 				"/home/exxedlight/.config/fish/fish_variables",
@@ -183,7 +188,6 @@
 				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh",
 				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Game version.txt",
 				"/home/exxedlight/.config/waypaper/config.ini",
-				"/home/exxedlight/.config/hypr/hyprpaper.conf",
 				"/home/exxedlight/Env/Scripts/ffmpeg-convert.sh",
 				"/home/exxedlight/Env/Backup/grub",
 				"/home/exxedlight/Рабочий стол/orders.txt",
@@ -359,7 +363,7 @@
 			{
 			}
 		},
-		"new_window_width": 956.0
+		"new_window_width": 1920.0
 	},
 	"windows":
 	[
@@ -402,6 +406,9 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/waybar/README.md",
+				"/home/exxedlight/.config/hypr/hyprpaper.conf",
+				"/home/exxedlight/.config/README.md",
 				"/home/exxedlight/.config/fastfetch/config.jsonc",
 				"/home/exxedlight/.config/fastfetch/logo.txt",
 				"/home/exxedlight/.config/fish/fish_variables",
@@ -424,7 +431,6 @@
 				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh",
 				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Game version.txt",
 				"/home/exxedlight/.config/waypaper/config.ini",
-				"/home/exxedlight/.config/hypr/hyprpaper.conf",
 				"/home/exxedlight/Env/Scripts/ffmpeg-convert.sh",
 				"/home/exxedlight/Env/Backup/grub",
 				"/home/exxedlight/Рабочий стол/orders.txt",
@@ -558,7 +564,7 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,953,1003,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,1910,1010,1920,1080,0",
 			"replace":
 			{
 				"height": 48.0

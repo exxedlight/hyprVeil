@@ -1,13 +1,5 @@
 #!/bin/sh
 
-# CURRENT=$(audtool current-song-output-length-seconds)
-# TOTAL=$(audtool current-song-length-seconds)
-# 
-# FORMATTED_CURRENT=$(printf "%03d" "$CURRENT")
-# FORMATTED_TOTAL=$(printf "%03d" "$TOTAL")
-# 
-# echo "{\"text\": \"$FORMATTED_CURRENT / $FORMATTED_TOTAL\"}"
-
 CURRENT=$(audtool current-song-output-length-seconds)
 TOTAL=$(audtool current-song-length-seconds)
 

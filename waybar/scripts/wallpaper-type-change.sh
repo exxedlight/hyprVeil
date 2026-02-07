@@ -22,7 +22,7 @@ elif [ "$1" = "video" ]; then
 # Иначе — тогл
 else
     if pgrep -x mpvpaper >/dev/null; then
-        killall mpvpaper
+        killall -9 mpvpaper
         hyprpaper & disown
         echo "{\"text\": \"static\", \"alt\": \"static\"}"
     else

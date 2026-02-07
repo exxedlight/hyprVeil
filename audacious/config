@@ -8,7 +8,7 @@ decoration_code=1
 decoration_color_0=0,0,0,51900
 decoration_color_1=0,0,0,0
 position_maxsize_width=1920
-position_offset_y=25
+position_offset_y=35
 position_placement=2
 text_fonts_color_0=63222,62965,62708,65535
 text_fonts_name_0=Pixellari Medium 12
@@ -36,7 +36,7 @@ equalizer_win=1453,160,418,288
 filebrowser_win=564,300,791,480
 filesel_path=/home/exxedlight/Zx20/Sounds/In This Moment
 info_win=551,303,818,473
-jump_to_track_win=627,300,665,480
+jump_to_track_win=650,45,665,480
 no_confirm_playlist_delete=TRUE
 
 [audqt]
@@ -84,7 +84,7 @@ menu_visible=FALSE
 player_height=800
 player_width=900
 player_x=510
-player_y=45
+player_y=40
 playlist_columns=title bitrate length
 playlist_headers=FALSE
 playlist_headers_sortable=FALSE
@@ -115,6 +115,10 @@ remote-source=nowhere
 custom_duration=5
 custom_duration_enabled=TRUE
 resident=TRUE
+
+[pipewire]
+volume_left=100
+volume_right=100
 
 [qtui]
 close_button_visible=FALSE
