@@ -1,6 +1,10 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/.config/gtk-4.0/settings.ini",
+		"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/exxedlight/.config/MangoHud/MangoHud.conf",
+		"/home/exxedlight/.config/cachyos-hello.json",
 		"/home/exxedlight/Games/Sin.Spire/OneHack.Us.txt",
 		"/home/exxedlight/Games/Sin.Spire/README.txt",
 		"/home/exxedlight/.config/mimeapps.list",
@@ -59,7 +63,6 @@
 		"/home/exxedlight/.config/waybar/scripts/power-plan-change.sh",
 		"/home/exxedlight/Env/Scripts/power-monitor.sh",
 		"/home/exxedlight/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
-		"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 		"/home/exxedlight/.config/vivaldi/AdverseAdSiteList.json",
 		"/home/exxedlight/Env/Scripts/toogle-video-record.sh",
 		"/home/exxedlight/.config/mako/config",
@@ -94,7 +97,6 @@
 		"/home/exxedlight/.config/hypr/hyprland.conf",
 		"/home/exxedlight/.config/swaylock/config",
 		"/home/exxedlight/.config/qmmp/qmmp.conf",
-		"/home/exxedlight/.config/gtk-4.0/settings.ini",
 		"/home/exxedlight/.config/gtk-3.0/settings.ini",
 		"/home/exxedlight/.config/Thunar/accels.scm",
 		"/home/exxedlight/.config/Thunar/uca.xml",
@@ -117,7 +119,7 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1770634973,
+	"next_update_check": 1770721373,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -382,6 +384,79 @@
 				[
 				]
 			},
+			"buffers":
+			[
+				{
+					"file": "/home/exxedlight/.config/.gitignore",
+					"settings":
+					{
+						"buffer_size": 311,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": "!"
+							},
+							"AQAAAB0BAAAAAAAAHgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQEAAAAAAAAdAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"",
+							null,
+							"AQAAAB4BAAAAAAAAKwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHgEAAAAAAAAeAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"insert",
+							{
+								"characters": "\n!RE"
+							},
+							"BAAAABwBAAAAAAAAHQEAAAAAAAAAAAAAHQEAAAAAAAAeAQAAAAAAAAAAAAAeAQAAAAAAAB8BAAAAAAAAAAAAAB8BAAAAAAAAIAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHAEAAAAAAAAcAQAAAAAAAAAAAAAAgFhA"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": "ADME."
+							},
+							"BQAAACABAAAAAAAAIQEAAAAAAAAAAAAAIQEAAAAAAAAiAQAAAAAAAAAAAAAiAQAAAAAAACMBAAAAAAAAAAAAACMBAAAAAAAAJAEAAAAAAAAAAAAAJAEAAAAAAAAlAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIAEAAAAAAAAgAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": "md"
+							},
+							"AgAAACUBAAAAAAAAJgEAAAAAAAAAAAAAJgEAAAAAAAAnAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJQEAAAAAAAAlAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAADYBAAAAAAAANwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANgEAAAAAAAA2AQAAAAAAAAAAAAAAgFFA"
+						]
+					]
+				}
+			],
 			"build_system": "",
 			"build_system_choices":
 			[
@@ -414,6 +489,10 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/gtk-4.0/settings.ini",
+				"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+				"/home/exxedlight/.config/MangoHud/MangoHud.conf",
+				"/home/exxedlight/.config/cachyos-hello.json",
 				"/home/exxedlight/Games/Sin.Spire/OneHack.Us.txt",
 				"/home/exxedlight/Games/Sin.Spire/README.txt",
 				"/home/exxedlight/.config/mimeapps.list",
@@ -504,10 +583,8 @@
 				"/home/exxedlight/.config/vlc/vlc-qt-interface.conf",
 				"/home/exxedlight/.config/vlc/vlcrc",
 				"/home/exxedlight/.config/hypr/hyprland.conf",
-				"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 				"/home/exxedlight/.config/swaylock/config",
 				"/home/exxedlight/.config/qmmp/qmmp.conf",
-				"/home/exxedlight/.config/gtk-4.0/settings.ini",
 				"/home/exxedlight/.config/gtk-3.0/settings.ini",
 				"/home/exxedlight/.config/Thunar/accels.scm",
 				"/home/exxedlight/.config/Thunar/uca.xml",
@@ -559,6 +636,44 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/exxedlight/.config/.gitignore",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 311,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										311,
+										311
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
 			"incremental_find":
 			{
 				"height": 26.0
@@ -566,6 +681,28 @@
 			"input":
 			{
 				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
 			},
 			"menu_visible": true,
 			"output.find_results":
@@ -577,6 +714,7 @@
 			},
 			"pinned_build_system": "",
 			"position": "0,1,0,0,0,0,0,953,1020,1920,1080,0",
+			"project": "",
 			"replace":
 			{
 				"height": 48.0
@@ -609,6 +747,7 @@
 				],
 				"width": 0.0
 			},
+			"selected_group": 0,
 			"settings":
 			{
 			},
@@ -621,7 +760,8 @@
 			"template_settings":
 			{
 			},
-			"window_id": 4
+			"window_id": 4,
+			"workspace_name": ""
 		}
 	],
 	"workspaces":

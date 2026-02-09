@@ -27,6 +27,7 @@ repeat=TRUE
 replay_gain_mode=2
 replay_gain_preamp=3
 show_interface=FALSE
+shuffle=TRUE
 soft_clipping=TRUE
 
 [audgui]
