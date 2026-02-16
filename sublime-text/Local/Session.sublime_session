@@ -1,6 +1,17 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/.config/user-dirs.dirs",
+		"/home/exxedlight/.config/user-dirs.locale",
+		"/home/exxedlight/.config/.gitignore",
+		"/home/exxedlight/.config/QtProject.conf",
+		"/home/exxedlight/.config/ksysguardrc",
+		"/home/exxedlight/.config/ksysguard.kmessagebox",
+		"/home/exxedlight/.config/kitty/kitty.conf",
+		"/home/exxedlight/.config/go/telemetry/local/weekends",
+		"/home/exxedlight/.config/go/telemetry/local/upload.token",
+		"/home/exxedlight/.config/fish/config.fish",
+		"/home/exxedlight/.config/fish/fish_variables",
 		"/home/exxedlight/.config/README.md",
 		"/home/exxedlight/Env/Scripts/set-wallpaper.sh",
 		"/home/exxedlight/Env/Scripts/power-monitor.sh",
@@ -32,7 +43,6 @@
 		"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
 		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-		"/home/exxedlight/.config/.gitignore",
 		"/home/exxedlight/.config/Thunar/accels.scm",
 		"/home/exxedlight/.config/Thunar/uca.xml",
 		"/home/exxedlight/.config/gtk-4.0/settings.ini",
@@ -48,14 +58,11 @@
 		"/home/exxedlight/.config/hypr/hyprpaper.conf",
 		"/home/exxedlight/.config/fastfetch/config.jsonc",
 		"/home/exxedlight/.config/fastfetch/logo.txt",
-		"/home/exxedlight/.config/fish/fish_variables",
-		"/home/exxedlight/.config/fish/config.fish",
 		"/usr/share/fastfetch/presets/examples/28.jsonc",
 		"/usr/share/fastfetch/presets/examples/2.jsonc",
 		"/usr/share/fastfetch/presets/ci.jsonc",
 		"/usr/share/fastfetch/presets/archey.jsonc",
 		"/usr/share/fastfetch/presets/all.jsonc",
-		"/home/exxedlight/.config/kitty/kitty.conf",
 		"/home/exxedlight/.config/audacious/config",
 		"/home/exxedlight/.config/audacious/playlists/1000.audpl",
 		"/home/exxedlight/.cache/wofi-drun",
@@ -121,14 +128,7 @@
 		"/home/exxedlight/.local/share/vlc/catalog.xml",
 		"/home/exxedlight/.config/vlc/vlc-qt-interface.conf",
 		"/home/exxedlight/.config/vlc/vlcrc",
-		"/home/exxedlight/.config/hypr/hyprland.conf",
-		"/home/exxedlight/.config/swaylock/config",
-		"/home/exxedlight/.config/qmmp/qmmp.conf",
-		"/home/exxedlight/.config/gtk-3.0/settings.ini",
-		"/home/exxedlight/.config/waybar_bottom/config.jsonc",
-		"/home/exxedlight/.config/nwg-dock-hyprland/style.css",
-		"/home/exxedlight/nohup.out",
-		"/home/exxedlight/Games/Last_Barbarian_Rebirth/Unity/Пароль на архив_ Archive password.txt"
+		"/home/exxedlight/.config/hypr/hyprland.conf"
 	],
 	"folder_history":
 	[
@@ -140,7 +140,7 @@
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1024.0,
+		"new_window_height": 512.0,
 		"new_window_maximized": true,
 		"new_window_position":
 		[
@@ -190,6 +190,17 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/user-dirs.dirs",
+				"/home/exxedlight/.config/user-dirs.locale",
+				"/home/exxedlight/.config/.gitignore",
+				"/home/exxedlight/.config/QtProject.conf",
+				"/home/exxedlight/.config/ksysguardrc",
+				"/home/exxedlight/.config/ksysguard.kmessagebox",
+				"/home/exxedlight/.config/kitty/kitty.conf",
+				"/home/exxedlight/.config/go/telemetry/local/weekends",
+				"/home/exxedlight/.config/go/telemetry/local/upload.token",
+				"/home/exxedlight/.config/fish/config.fish",
+				"/home/exxedlight/.config/fish/fish_variables",
 				"/home/exxedlight/.config/README.md",
 				"/home/exxedlight/Env/Scripts/set-wallpaper.sh",
 				"/home/exxedlight/Env/Scripts/power-monitor.sh",
@@ -221,7 +232,6 @@
 				"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-				"/home/exxedlight/.config/.gitignore",
 				"/home/exxedlight/.config/Thunar/accels.scm",
 				"/home/exxedlight/.config/Thunar/uca.xml",
 				"/home/exxedlight/.config/gtk-4.0/settings.ini",
@@ -237,14 +247,11 @@
 				"/home/exxedlight/.config/hypr/hyprpaper.conf",
 				"/home/exxedlight/.config/fastfetch/config.jsonc",
 				"/home/exxedlight/.config/fastfetch/logo.txt",
-				"/home/exxedlight/.config/fish/fish_variables",
-				"/home/exxedlight/.config/fish/config.fish",
 				"/usr/share/fastfetch/presets/examples/28.jsonc",
 				"/usr/share/fastfetch/presets/examples/2.jsonc",
 				"/usr/share/fastfetch/presets/ci.jsonc",
 				"/usr/share/fastfetch/presets/archey.jsonc",
 				"/usr/share/fastfetch/presets/all.jsonc",
-				"/home/exxedlight/.config/kitty/kitty.conf",
 				"/home/exxedlight/.config/audacious/config",
 				"/home/exxedlight/.config/audacious/playlists/1000.audpl",
 				"/home/exxedlight/.cache/wofi-drun",
@@ -310,14 +317,7 @@
 				"/home/exxedlight/.local/share/vlc/catalog.xml",
 				"/home/exxedlight/.config/vlc/vlc-qt-interface.conf",
 				"/home/exxedlight/.config/vlc/vlcrc",
-				"/home/exxedlight/.config/hypr/hyprland.conf",
-				"/home/exxedlight/.config/swaylock/config",
-				"/home/exxedlight/.config/qmmp/qmmp.conf",
-				"/home/exxedlight/.config/gtk-3.0/settings.ini",
-				"/home/exxedlight/.config/waybar_bottom/config.jsonc",
-				"/home/exxedlight/.config/nwg-dock-hyprland/style.css",
-				"/home/exxedlight/nohup.out",
-				"/home/exxedlight/Games/Last_Barbarian_Rebirth/Unity/Пароль на архив_ Archive password.txt"
+				"/home/exxedlight/.config/hypr/hyprland.conf"
 			],
 			"find":
 			{
@@ -463,6 +463,17 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/user-dirs.dirs",
+				"/home/exxedlight/.config/user-dirs.locale",
+				"/home/exxedlight/.config/.gitignore",
+				"/home/exxedlight/.config/QtProject.conf",
+				"/home/exxedlight/.config/ksysguardrc",
+				"/home/exxedlight/.config/ksysguard.kmessagebox",
+				"/home/exxedlight/.config/kitty/kitty.conf",
+				"/home/exxedlight/.config/go/telemetry/local/weekends",
+				"/home/exxedlight/.config/go/telemetry/local/upload.token",
+				"/home/exxedlight/.config/fish/config.fish",
+				"/home/exxedlight/.config/fish/fish_variables",
 				"/home/exxedlight/.config/README.md",
 				"/home/exxedlight/Env/Scripts/set-wallpaper.sh",
 				"/home/exxedlight/Env/Scripts/power-monitor.sh",
@@ -494,7 +505,6 @@
 				"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-				"/home/exxedlight/.config/.gitignore",
 				"/home/exxedlight/.config/Thunar/accels.scm",
 				"/home/exxedlight/.config/Thunar/uca.xml",
 				"/home/exxedlight/.config/gtk-4.0/settings.ini",
@@ -510,14 +520,11 @@
 				"/home/exxedlight/.config/hypr/hyprpaper.conf",
 				"/home/exxedlight/.config/fastfetch/config.jsonc",
 				"/home/exxedlight/.config/fastfetch/logo.txt",
-				"/home/exxedlight/.config/fish/fish_variables",
-				"/home/exxedlight/.config/fish/config.fish",
 				"/usr/share/fastfetch/presets/examples/28.jsonc",
 				"/usr/share/fastfetch/presets/examples/2.jsonc",
 				"/usr/share/fastfetch/presets/ci.jsonc",
 				"/usr/share/fastfetch/presets/archey.jsonc",
 				"/usr/share/fastfetch/presets/all.jsonc",
-				"/home/exxedlight/.config/kitty/kitty.conf",
 				"/home/exxedlight/.config/audacious/config",
 				"/home/exxedlight/.config/audacious/playlists/1000.audpl",
 				"/home/exxedlight/.cache/wofi-drun",
@@ -583,14 +590,7 @@
 				"/home/exxedlight/.local/share/vlc/catalog.xml",
 				"/home/exxedlight/.config/vlc/vlc-qt-interface.conf",
 				"/home/exxedlight/.config/vlc/vlcrc",
-				"/home/exxedlight/.config/hypr/hyprland.conf",
-				"/home/exxedlight/.config/swaylock/config",
-				"/home/exxedlight/.config/qmmp/qmmp.conf",
-				"/home/exxedlight/.config/gtk-3.0/settings.ini",
-				"/home/exxedlight/.config/waybar_bottom/config.jsonc",
-				"/home/exxedlight/.config/nwg-dock-hyprland/style.css",
-				"/home/exxedlight/nohup.out",
-				"/home/exxedlight/Games/Last_Barbarian_Rebirth/Unity/Пароль на архив_ Archive password.txt"
+				"/home/exxedlight/.config/hypr/hyprland.conf"
 			],
 			"find":
 			{
@@ -647,7 +647,7 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,953,1022,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,953,509,1920,1080,0",
 			"replace":
 			{
 				"height": 48.0
