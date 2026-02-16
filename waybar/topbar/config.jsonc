@@ -19,10 +19,10 @@
 	------------*/
 
 	"modules-left": [
-		"tray",
-		"custom/left_div#1",
-		"wlr/taskbar",
-		"custom/right_div#1"
+		"tray"
+		//"custom/left_div#1",
+		//"wlr/taskbar"
+		//"custom/right_div#1"
 	],
 	"modules-center": [
 		"group/player-module"

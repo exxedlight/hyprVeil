@@ -3,13 +3,16 @@
 mixer-element=Master
 
 [aosd]
-animation_timing_display=1000
+animation_timing_display=800
+animation_timing_fadein=100
+animation_timing_fadeout=200
 decoration_code=1
 decoration_color_0=0,0,0,51900
 decoration_color_1=0,0,0,0
 position_maxsize_width=1920
-position_offset_y=35
-position_placement=2
+position_multimon_id=0
+position_offset_y=25
+position_placement=3
 text_fonts_color_0=63222,62965,62708,65535
 text_fonts_name_0=Pixellari Medium 12
 text_fonts_shadow_color_0=9252,7967,12593,65535
@@ -27,7 +30,6 @@ repeat=TRUE
 replay_gain_mode=2
 replay_gain_preamp=3
 show_interface=FALSE
-shuffle=TRUE
 soft_clipping=TRUE
 
 [audgui]
@@ -37,7 +39,7 @@ equalizer_win=1453,160,418,288
 filebrowser_win=564,300,791,480
 filesel_path=/home/exxedlight/Zx20/Sounds/In This Moment
 info_win=551,303,818,473
-jump_to_track_win=650,45,665,480
+jump_to_track_win=650,30,665,480
 no_confirm_playlist_delete=TRUE
 
 [audqt]
@@ -85,10 +87,11 @@ menu_visible=FALSE
 player_height=800
 player_width=900
 player_x=510
-player_y=40
+player_y=30
 playlist_columns=title bitrate length
 playlist_headers=FALSE
 playlist_headers_sortable=FALSE
+statusbar_visible=FALSE
 
 [gtkui-layout]
 item0_name=Обложка альбома
@@ -100,13 +103,13 @@ item2_pos=-1,962,37,949,1002
 item3_name=Поиск
 item3_pos=0,-1,-1,208,736
 item4_name=Анализатор спектра
-item4_pos=-1,5,37,1906,1002
+item4_pos=-1,5,29,949,1018
 item5_name=Волюметр
-item5_pos=-1,5,37,1906,1002
+item5_pos=-1,5,29,949,1018
 item6_name=Размывающийся уровень
-item6_pos=-1,5,37,1906,1002
+item6_pos=-1,1380,1041,347,34
 item7_name=Спектральный анализатор (OpenGL)
-item7_pos=-1,5,37,1906,1002
+item7_pos=-1,350,259,1554,768
 item_count=8
 
 [lyricwiki]

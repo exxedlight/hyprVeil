@@ -23,4 +23,15 @@
 	<patterns>*</patterns>
 	<directories/>
 </action>
+<action>
+	<icon>wallpaper</icon>
+	<name>Set as hyprpaper</name>
+	<submenu></submenu>
+	<unique-id>1771203594482936-1</unique-id>
+	<command>~/Env/Scripts/set-wallpaper.sh %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
 </actions>
