@@ -13,14 +13,16 @@
 @import "styles/states.css";
 
 #custom-cpu-frequency{
-	background-color: @cpu;
+	background-color: transparent;
 	font-size: 12px;
 	padding-top: 5px;
 	font-family: "Symbols Nerd Font", monospace;
 }
 #memory{
-	font-size: 14px;
+	font-size: 15px;
 	font-family: 'Symbols Nerd Font', monospace;
+	padding-left: 5px;
+	padding-bottom: 2px;
 }
 #custom-distro:hover{
 	color: white;
@@ -31,6 +33,13 @@
 .modules-left{
 	background: url("./trapezoid_left.svg");
 	background-size: cover;
+	padding: 0;
+	padding-right: 10px;
+}
+.modules-center{
+	background: url("./trapezoid_center.svg");
+	background-size: cover;
+	background-repeat: repeat-x;
 	padding: 0 10px;
 }
 #workspaces {
@@ -53,6 +62,9 @@
 	background: linear-gradient(to top, rgba(142, 5, 173, .8) 5%, transparent 50%);
 	border-radius: 0px;
 }
+/*#workspaces button.empty{
+	padding-top: 10px;
+}*/
 #workspaces button label{
 	font-family: 'MesloLGSDZ Nerd Font', monospace;
 	font-size: 16px;
@@ -83,4 +95,17 @@
 	padding-right: 0;
 	background-color: rgba(0, 0, 0, 0.195);
 	background-color: transparent;
+}
+
+#custom-gpu-state {
+	padding-right: 5px;
+	font-family: 'MesloLGSDZ Nerd Font', monospace;
+	background-color: transparent;
+}
+#custom-gpu-state.available{
+	color: rgb(173, 59, 243);
+	text-shadow: 0 0 3px rgba(0, 217, 255, 0.58);
+}
+#custom-gpu-state.unavailable{
+	color: rgb(87, 87, 87);
 }

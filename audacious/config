@@ -22,7 +22,7 @@ trigger_enabled=1,0,0,1
 [audacious]
 advance_on_delete=TRUE
 equalizer_active=TRUE
-equalizer_bands=6,4,2,1,-3,1,2,3,5,6
+equalizer_bands=6,4,2,-2,2,2,0,2,4,6
 leading_zero=TRUE
 metadata_fallbacks=FALSE
 output_buffer_size=1000
@@ -30,6 +30,7 @@ repeat=TRUE
 replay_gain_mode=2
 replay_gain_preamp=3
 show_interface=FALSE
+shuffle=TRUE
 soft_clipping=TRUE
 
 [audgui]
@@ -39,7 +40,7 @@ equalizer_win=1453,160,418,288
 filebrowser_win=564,300,791,480
 filesel_path=/home/exxedlight/Zx20/Sounds/In This Moment
 info_win=551,303,818,473
-jump_to_track_win=650,30,665,480
+jump_to_track_win=650,35,665,480
 no_confirm_playlist_delete=TRUE
 
 [audqt]
@@ -52,12 +53,14 @@ fcut=650
 feed=95
 
 [compressor]
-range=0.2
+center=0.7
+range=0.1
 
 [crossfade]
 length=1
+manual=FALSE
+no_fade_in=TRUE
 sigmoid_steepness=2
-use_sigmoid=TRUE
 
 [crystalizer]
 intensity=0.5
@@ -87,7 +90,7 @@ menu_visible=FALSE
 player_height=800
 player_width=900
 player_x=510
-player_y=30
+player_y=35
 playlist_columns=title bitrate length
 playlist_headers=FALSE
 playlist_headers_sortable=FALSE
@@ -140,7 +143,6 @@ show_remaining_time=TRUE
 method=4
 
 [soxr]
-phase_response=16
 use_steep_filter=TRUE
 
 [statusicon]

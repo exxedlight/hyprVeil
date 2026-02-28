@@ -14,7 +14,8 @@
 		"~/.config/waybar/bottombar/modules/pulseaudio.jsonc",
 		"~/.config/waybar/bottombar/modules/backlight.jsonc",
 		"~/.config/waybar/bottombar/modules/custom/dividers.jsonc",
-		"~/.config/waybar/bottombar/modules/custom/cpu_frequency.jsonc"
+		"~/.config/waybar/bottombar/modules/custom/cpu_frequency.jsonc",
+		"~/.config/waybar/bottombar/modules/custom/gpu-state.jsonc"
 	],
 
 	/*------------
@@ -22,16 +23,13 @@
 	------------*/
 
 	"modules-left": [
-		//"group/user",
-		//"custom/left_div#1",
 		"hyprland/workspaces"
-		//"custom/right_div#1"
 	],
 	"modules-center": [
-		"custom/left_div#1",
-		"temperature#gpu",
+		//"custom/left_div#1",
+		"group/gpu",
 		"temperature#cpu",
-		"custom/left_div#3",
+		//"custom/left_div#3",
 		"cpu",
 		"custom/cpu-frequency",
 		"custom/left_div#4",
@@ -45,11 +43,11 @@
 		"clock#time",
 		"custom/right_div#3",
 		"clock#date",
-		"custom/right_div#4",
+		//"custom/right_div#4",
 		"network",
 		"bluetooth",
-		"custom/system_update",
-		"custom/right_div#5"
+		"custom/system_update"
+		//"custom/right_div#5"
 	],
 	"modules-right": [
 		"hyprland/language",

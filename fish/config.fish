@@ -11,3 +11,5 @@ end
 #function fish_greeting
 #    # smth smth
 #end
+
+set -x npm_config_cache "$HOME/.cache/npm"

@@ -34,4 +34,26 @@
 	<patterns>*</patterns>
 	<image-files/>
 </action>
+<action>
+	<icon>zed</icon>
+	<name>Zed</name>
+	<submenu></submenu>
+	<unique-id>1772143586583215-1</unique-id>
+	<command>zeditor .</command>
+	<description>Open Zed here</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Collect code</name>
+	<submenu></submenu>
+	<unique-id>1772237540976312-1</unique-id>
+	<command>code-collector</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
 </actions>
