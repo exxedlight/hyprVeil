@@ -56,4 +56,15 @@
 	<patterns>*</patterns>
 	<directories/>
 </action>
+<action>
+	<icon>disks</icon>
+	<name>Partition</name>
+	<submenu>Disks</submenu>
+	<unique-id>1772392697864586-1</unique-id>
+	<command>gnome-disks</command>
+	<description>gnome-disks-utility</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
 </actions>

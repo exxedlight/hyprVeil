@@ -22,7 +22,7 @@ trigger_enabled=1,0,0,1
 [audacious]
 advance_on_delete=TRUE
 equalizer_active=TRUE
-equalizer_bands=6,4,2,-2,2,2,0,2,4,6
+equalizer_bands=2,4,2,0,-4,0,-2,0,4,8
 leading_zero=TRUE
 metadata_fallbacks=FALSE
 output_buffer_size=1000

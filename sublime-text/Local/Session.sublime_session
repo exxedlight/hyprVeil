@@ -1,6 +1,17 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/.config/mpv/scripts/hflip_vflip.lua",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/d073c0eb-aceb-4928-8e93-605d6ff46d32/meta.json",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/users-map.json",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/a17f8657-ba6b-47e5-994f-4fc210ed0630/meta.json",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Models/FileModel.cs",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Program.cs",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Controllers/TransferController.cs",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/5fba6209-9a97-4e7b-afcc-4158e8b11896/meta.json",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/3fa85f64-5717-4562-b3fc-2c963f66afa6/meta.json",
+		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Models/FileDescriptor.cs",
+		"/home/exxedlight/VirtualBox VMs/SharedMemory/VS/AutoCloudClient/AutoCloudLib/net.ac",
 		"/home/exxedlight/OWN/CLI/code-collector/Program.cs",
 		"/home/exxedlight/OWN/CodeCollector/Program.cs",
 		"/home/exxedlight/.config/xdg-desktop-portal/portals.conf",
@@ -117,18 +128,7 @@
 		"/home/exxedlight/suspend-debug.log",
 		"/home/exxedlight/suspend.log",
 		"/home/exxedlight/.zen/profiles.ini",
-		"/home/exxedlight/Загрузки/kitty.conf",
-		"/home/exxedlight/.local/share/clipman-primary.json",
-		"/home/exxedlight/.local/share/clipman.json",
-		"/home/exxedlight/Рабочий стол/prompt",
-		"/home/exxedlight/.config/.git/config",
-		"/home/exxedlight/OWN/sd-webui-forge-classic-neo/venv/dev.txt",
-		"/home/exxedlight/Games/Witch_Trainer_Silver_Mod/Rus/Пароль на архив_ Archive password.txt",
-		"/home/exxedlight/Games/That_New_Teacher/Пароль на архив_ Archive password.txt",
-		"/home/exxedlight/Games/Ero/SpecialDelivery-v0.2.0.1-pc/log.txt",
-		"/home/exxedlight/.config/wofi/launcher.css",
-		"/home/exxedlight/.config/nwg-drawer/drawer.css",
-		"/home/exxedlight/.config/nwg-drawer/grid-items.json"
+		"/home/exxedlight/Загрузки/kitty.conf"
 	],
 	"folder_history":
 	[
@@ -136,11 +136,11 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1772295469,
+	"next_update_check": 1772468269,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1024.0,
+		"new_window_height": 512.0,
 		"new_window_maximized": true,
 		"new_window_position":
 		[
@@ -190,6 +190,17 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/mpv/scripts/hflip_vflip.lua",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/d073c0eb-aceb-4928-8e93-605d6ff46d32/meta.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/users-map.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/a17f8657-ba6b-47e5-994f-4fc210ed0630/meta.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Models/FileModel.cs",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Program.cs",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Controllers/TransferController.cs",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/5fba6209-9a97-4e7b-afcc-4158e8b11896/meta.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/3fa85f64-5717-4562-b3fc-2c963f66afa6/meta.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Models/FileDescriptor.cs",
+				"/home/exxedlight/VirtualBox VMs/SharedMemory/VS/AutoCloudClient/AutoCloudLib/net.ac",
 				"/home/exxedlight/OWN/CLI/code-collector/Program.cs",
 				"/home/exxedlight/OWN/CodeCollector/Program.cs",
 				"/home/exxedlight/.config/xdg-desktop-portal/portals.conf",
@@ -306,18 +317,7 @@
 				"/home/exxedlight/suspend-debug.log",
 				"/home/exxedlight/suspend.log",
 				"/home/exxedlight/.zen/profiles.ini",
-				"/home/exxedlight/Загрузки/kitty.conf",
-				"/home/exxedlight/.local/share/clipman-primary.json",
-				"/home/exxedlight/.local/share/clipman.json",
-				"/home/exxedlight/Рабочий стол/prompt",
-				"/home/exxedlight/.config/.git/config",
-				"/home/exxedlight/OWN/sd-webui-forge-classic-neo/venv/dev.txt",
-				"/home/exxedlight/Games/Witch_Trainer_Silver_Mod/Rus/Пароль на архив_ Archive password.txt",
-				"/home/exxedlight/Games/That_New_Teacher/Пароль на архив_ Archive password.txt",
-				"/home/exxedlight/Games/Ero/SpecialDelivery-v0.2.0.1-pc/log.txt",
-				"/home/exxedlight/.config/wofi/launcher.css",
-				"/home/exxedlight/.config/nwg-drawer/drawer.css",
-				"/home/exxedlight/.config/nwg-drawer/grid-items.json"
+				"/home/exxedlight/Загрузки/kitty.conf"
 			],
 			"find":
 			{
@@ -463,6 +463,17 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/mpv/scripts/hflip_vflip.lua",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/d073c0eb-aceb-4928-8e93-605d6ff46d32/meta.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/users-map.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/a17f8657-ba6b-47e5-994f-4fc210ed0630/meta.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Models/FileModel.cs",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Program.cs",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Controllers/TransferController.cs",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/5fba6209-9a97-4e7b-afcc-4158e8b11896/meta.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/3fa85f64-5717-4562-b3fc-2c963f66afa6/meta.json",
+				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/Models/FileDescriptor.cs",
+				"/home/exxedlight/VirtualBox VMs/SharedMemory/VS/AutoCloudClient/AutoCloudLib/net.ac",
 				"/home/exxedlight/OWN/CLI/code-collector/Program.cs",
 				"/home/exxedlight/OWN/CodeCollector/Program.cs",
 				"/home/exxedlight/.config/xdg-desktop-portal/portals.conf",
@@ -579,18 +590,7 @@
 				"/home/exxedlight/suspend-debug.log",
 				"/home/exxedlight/suspend.log",
 				"/home/exxedlight/.zen/profiles.ini",
-				"/home/exxedlight/Загрузки/kitty.conf",
-				"/home/exxedlight/.local/share/clipman-primary.json",
-				"/home/exxedlight/.local/share/clipman.json",
-				"/home/exxedlight/Рабочий стол/prompt",
-				"/home/exxedlight/.config/.git/config",
-				"/home/exxedlight/OWN/sd-webui-forge-classic-neo/venv/dev.txt",
-				"/home/exxedlight/Games/Witch_Trainer_Silver_Mod/Rus/Пароль на архив_ Archive password.txt",
-				"/home/exxedlight/Games/That_New_Teacher/Пароль на архив_ Archive password.txt",
-				"/home/exxedlight/Games/Ero/SpecialDelivery-v0.2.0.1-pc/log.txt",
-				"/home/exxedlight/.config/wofi/launcher.css",
-				"/home/exxedlight/.config/nwg-drawer/drawer.css",
-				"/home/exxedlight/.config/nwg-drawer/grid-items.json"
+				"/home/exxedlight/Загрузки/kitty.conf"
 			],
 			"find":
 			{
@@ -647,7 +647,7 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,953,1022,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,953,509,1920,1080,0",
 			"replace":
 			{
 				"height": 48.0
