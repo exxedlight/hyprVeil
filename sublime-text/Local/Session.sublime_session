@@ -1,6 +1,16 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/.local/state/deadbeef/secrets",
+		"/home/exxedlight/.config/Thunar/accels.scm",
+		"/home/exxedlight/.config/Thunar/uca.xml",
+		"/home/exxedlight/zDocs/_Done/params-nunit/Console.NUnit/Program.cs",
+		"/home/exxedlight/Env/.gitignore",
+		"/home/exxedlight/Env/Scripts/paste-file-create.sh",
+		"/home/exxedlight/OWN/USBCommands",
+		"/home/exxedlight/OWN/annoncement.txt",
+		"/home/exxedlight/Загрузки/Telegram Desktop/OWN/hck.txt",
+		"/home/exxedlight/Загрузки/Telegram Desktop/OWN/access.txt",
 		"/home/exxedlight/.config/mpv/scripts/hflip_vflip.lua",
 		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/d073c0eb-aceb-4928-8e93-605d6ff46d32/meta.json",
 		"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/users-map.json",
@@ -93,8 +103,6 @@
 		"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
 		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-		"/home/exxedlight/.config/Thunar/accels.scm",
-		"/home/exxedlight/.config/Thunar/uca.xml",
 		"/home/exxedlight/.config/gtk-4.0/settings.ini",
 		"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 		"/home/exxedlight/.config/MangoHud/MangoHud.conf",
@@ -120,15 +128,7 @@
 		"/home/exxedlight/.local/share/recently-used.xbel",
 		"/home/exxedlight/Env/scripts.txt",
 		"/home/exxedlight/.local/share/fonts/Vampir_new.ttf",
-		"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh",
-		"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Game version.txt",
-		"/home/exxedlight/Env/Scripts/ffmpeg-convert.sh",
-		"/home/exxedlight/Env/Backup/grub",
-		"/home/exxedlight/suspend-events.log",
-		"/home/exxedlight/suspend-debug.log",
-		"/home/exxedlight/suspend.log",
-		"/home/exxedlight/.zen/profiles.ini",
-		"/home/exxedlight/Загрузки/kitty.conf"
+		"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh"
 	],
 	"folder_history":
 	[
@@ -136,11 +136,11 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1772468269,
+	"next_update_check": 1773459652,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 512.0,
+		"new_window_height": 1024.0,
 		"new_window_maximized": true,
 		"new_window_position":
 		[
@@ -190,6 +190,16 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.local/state/deadbeef/secrets",
+				"/home/exxedlight/.config/Thunar/accels.scm",
+				"/home/exxedlight/.config/Thunar/uca.xml",
+				"/home/exxedlight/zDocs/_Done/params-nunit/Console.NUnit/Program.cs",
+				"/home/exxedlight/Env/.gitignore",
+				"/home/exxedlight/Env/Scripts/paste-file-create.sh",
+				"/home/exxedlight/OWN/USBCommands",
+				"/home/exxedlight/OWN/annoncement.txt",
+				"/home/exxedlight/Загрузки/Telegram Desktop/OWN/hck.txt",
+				"/home/exxedlight/Загрузки/Telegram Desktop/OWN/access.txt",
 				"/home/exxedlight/.config/mpv/scripts/hflip_vflip.lua",
 				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/d073c0eb-aceb-4928-8e93-605d6ff46d32/meta.json",
 				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/users-map.json",
@@ -282,8 +292,6 @@
 				"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-				"/home/exxedlight/.config/Thunar/accels.scm",
-				"/home/exxedlight/.config/Thunar/uca.xml",
 				"/home/exxedlight/.config/gtk-4.0/settings.ini",
 				"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 				"/home/exxedlight/.config/MangoHud/MangoHud.conf",
@@ -309,15 +317,7 @@
 				"/home/exxedlight/.local/share/recently-used.xbel",
 				"/home/exxedlight/Env/scripts.txt",
 				"/home/exxedlight/.local/share/fonts/Vampir_new.ttf",
-				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh",
-				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Game version.txt",
-				"/home/exxedlight/Env/Scripts/ffmpeg-convert.sh",
-				"/home/exxedlight/Env/Backup/grub",
-				"/home/exxedlight/suspend-events.log",
-				"/home/exxedlight/suspend-debug.log",
-				"/home/exxedlight/suspend.log",
-				"/home/exxedlight/.zen/profiles.ini",
-				"/home/exxedlight/Загрузки/kitty.conf"
+				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh"
 			],
 			"find":
 			{
@@ -463,6 +463,16 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.local/state/deadbeef/secrets",
+				"/home/exxedlight/.config/Thunar/accels.scm",
+				"/home/exxedlight/.config/Thunar/uca.xml",
+				"/home/exxedlight/zDocs/_Done/params-nunit/Console.NUnit/Program.cs",
+				"/home/exxedlight/Env/.gitignore",
+				"/home/exxedlight/Env/Scripts/paste-file-create.sh",
+				"/home/exxedlight/OWN/USBCommands",
+				"/home/exxedlight/OWN/annoncement.txt",
+				"/home/exxedlight/Загрузки/Telegram Desktop/OWN/hck.txt",
+				"/home/exxedlight/Загрузки/Telegram Desktop/OWN/access.txt",
 				"/home/exxedlight/.config/mpv/scripts/hflip_vflip.lua",
 				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/d073c0eb-aceb-4928-8e93-605d6ff46d32/meta.json",
 				"/home/exxedlight/zDocs/WIP/net-AutoCloudeServer/Server/bin/Debug/net10.0/Content/Storage/users-map.json",
@@ -555,8 +565,6 @@
 				"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-				"/home/exxedlight/.config/Thunar/accels.scm",
-				"/home/exxedlight/.config/Thunar/uca.xml",
 				"/home/exxedlight/.config/gtk-4.0/settings.ini",
 				"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 				"/home/exxedlight/.config/MangoHud/MangoHud.conf",
@@ -582,15 +590,7 @@
 				"/home/exxedlight/.local/share/recently-used.xbel",
 				"/home/exxedlight/Env/scripts.txt",
 				"/home/exxedlight/.local/share/fonts/Vampir_new.ttf",
-				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh",
-				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Game version.txt",
-				"/home/exxedlight/Env/Scripts/ffmpeg-convert.sh",
-				"/home/exxedlight/Env/Backup/grub",
-				"/home/exxedlight/suspend-events.log",
-				"/home/exxedlight/suspend-debug.log",
-				"/home/exxedlight/suspend.log",
-				"/home/exxedlight/.zen/profiles.ini",
-				"/home/exxedlight/Загрузки/kitty.conf"
+				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh"
 			],
 			"find":
 			{
@@ -647,7 +647,7 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,953,509,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,953,1022,1920,1080,0",
 			"replace":
 			{
 				"height": 48.0

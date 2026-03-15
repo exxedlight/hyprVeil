@@ -67,4 +67,20 @@
 	<patterns>*</patterns>
 	<directories/>
 </action>
+<action>
+	<icon>document-save-all</icon>
+	<name>Pastle Adapter</name>
+	<submenu></submenu>
+	<unique-id>1773079304291254-1</unique-id>
+	<command>~/Env/Scripts/paste-adapter.sh</command>
+	<description>Pastle RAW files or files from other apps</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
 </actions>

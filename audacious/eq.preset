@@ -47,16 +47,16 @@ Band9=6
 
 [Main]
 Preamp=0
-Band0=6
-Band1=4
-Band2=2
-Band3=-2
-Band4=2
-Band5=2
-Band6=0
-Band7=2
-Band8=4
-Band9=6
+Band0=4
+Band1=2
+Band2=1
+Band3=-1
+Band4=-3
+Band5=-1
+Band6=1
+Band7=4
+Band8=6
+Band9=2
 
 [Marsh2]
 Preamp=0
