@@ -68,6 +68,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/sendto-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/go-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/remove-from-recent" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/a454ec240160f2cfca8265729d55fa7a" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/open-with-other" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/invert-selection" "<Primary><Shift>i")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-mtime" "")

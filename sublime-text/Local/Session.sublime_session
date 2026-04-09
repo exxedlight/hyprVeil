@@ -1,6 +1,19 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/Games/Resident Evil 5/re5dx9.exe.CFG",
+		"/home/exxedlight/zDocs/WIP/njs-transport-agency/prisma/schema.prisma",
+		"/home/exxedlight/zDocs/WIP/njs-transport-agency/package.json",
+		"/home/exxedlight/zDocs/WIP/njs-transport-agency/src/lib/prisma.ts",
+		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_2203129G/names.json",
+		"/home/exxedlight/Downloads/Ashley Nude/Активировать модификацию Эшли.bat",
+		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
+		"/home/exxedlight/zDocs/WIP/nunit-whitebox/TestResult.xml",
+		"/home/exxedlight/zDocs/WIP/nunit-whitebox/Console.NUnit/coverage/coverage.cobertura.xml",
+		"/home/exxedlight/zDocs/WIP/nunit-whitebox/commands.txt",
+		"/home/exxedlight/.local/share/TelegramDesktop/tdata/editing-theme.tdesktop-palette",
+		"/home/exxedlight/zDocs/_Done/njs-devices-monitor/src/app/api/rooms/replacements/[deviceId]/route.ts",
+		"/home/exxedlight/zDocs/WIP/njs-medx-book/src/app/api/articles/route.ts",
 		"/home/exxedlight/.local/state/deadbeef/secrets",
 		"/home/exxedlight/.config/Thunar/accels.scm",
 		"/home/exxedlight/.config/Thunar/uca.xml",
@@ -82,7 +95,6 @@
 		"/home/exxedlight/Env/Scripts/power-monitor.sh",
 		"/home/exxedlight/zDocs/WIP/njs-devices-monitor/.env.local",
 		"/home/exxedlight/Рабочий стол/WannaPlay.txt.txt",
-		"/home/exxedlight/.local/share/TelegramDesktop/tdata/editing-theme.tdesktop-palette",
 		"/home/exxedlight/Zx20/.out/muiGal/gallery_disk_cache/small_size/4c7528f044493b4b5387bfcf98ef76a03acaa3f918d590d90e3b8ad5696c53cc.0",
 		"/home/exxedlight/zDocs/WIP/njs-devices-monitor/src/types/enums.ts",
 		"/home/exxedlight/OWN/PyDesktop/desktop.json",
@@ -101,7 +113,6 @@
 		"/home/exxedlight/OWN/CustomHomePage/backup/bookmarks.json",
 		"/home/exxedlight/OWN/CustomHomePage/.gitignore",
 		"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
-		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
 		"/home/exxedlight/.config/gtk-4.0/settings.ini",
 		"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
@@ -117,18 +128,7 @@
 		"/usr/share/fastfetch/presets/examples/28.jsonc",
 		"/usr/share/fastfetch/presets/examples/2.jsonc",
 		"/usr/share/fastfetch/presets/ci.jsonc",
-		"/usr/share/fastfetch/presets/archey.jsonc",
-		"/usr/share/fastfetch/presets/all.jsonc",
-		"/home/exxedlight/.config/audacious/config",
-		"/home/exxedlight/.config/audacious/playlists/1000.audpl",
-		"/home/exxedlight/.cache/wofi-drun",
-		"/usr/share/applications/zen.desktop",
-		"/home/exxedlight/.local/share/applications/mimeinfo.cache",
-		"/home/exxedlight/.local/share/user-places.xbel",
-		"/home/exxedlight/.local/share/recently-used.xbel",
-		"/home/exxedlight/Env/scripts.txt",
-		"/home/exxedlight/.local/share/fonts/Vampir_new.ttf",
-		"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh"
+		"/usr/share/fastfetch/presets/archey.jsonc"
 	],
 	"folder_history":
 	[
@@ -136,7 +136,7 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1773459652,
+	"next_update_check": 1775226609,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -190,6 +190,19 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/Games/Resident Evil 5/re5dx9.exe.CFG",
+				"/home/exxedlight/zDocs/WIP/njs-transport-agency/prisma/schema.prisma",
+				"/home/exxedlight/zDocs/WIP/njs-transport-agency/package.json",
+				"/home/exxedlight/zDocs/WIP/njs-transport-agency/src/lib/prisma.ts",
+				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_2203129G/names.json",
+				"/home/exxedlight/Downloads/Ashley Nude/Активировать модификацию Эшли.bat",
+				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
+				"/home/exxedlight/zDocs/WIP/nunit-whitebox/TestResult.xml",
+				"/home/exxedlight/zDocs/WIP/nunit-whitebox/Console.NUnit/coverage/coverage.cobertura.xml",
+				"/home/exxedlight/zDocs/WIP/nunit-whitebox/commands.txt",
+				"/home/exxedlight/.local/share/TelegramDesktop/tdata/editing-theme.tdesktop-palette",
+				"/home/exxedlight/zDocs/_Done/njs-devices-monitor/src/app/api/rooms/replacements/[deviceId]/route.ts",
+				"/home/exxedlight/zDocs/WIP/njs-medx-book/src/app/api/articles/route.ts",
 				"/home/exxedlight/.local/state/deadbeef/secrets",
 				"/home/exxedlight/.config/Thunar/accels.scm",
 				"/home/exxedlight/.config/Thunar/uca.xml",
@@ -271,7 +284,6 @@
 				"/home/exxedlight/Env/Scripts/power-monitor.sh",
 				"/home/exxedlight/zDocs/WIP/njs-devices-monitor/.env.local",
 				"/home/exxedlight/Рабочий стол/WannaPlay.txt.txt",
-				"/home/exxedlight/.local/share/TelegramDesktop/tdata/editing-theme.tdesktop-palette",
 				"/home/exxedlight/Zx20/.out/muiGal/gallery_disk_cache/small_size/4c7528f044493b4b5387bfcf98ef76a03acaa3f918d590d90e3b8ad5696c53cc.0",
 				"/home/exxedlight/zDocs/WIP/njs-devices-monitor/src/types/enums.ts",
 				"/home/exxedlight/OWN/PyDesktop/desktop.json",
@@ -290,7 +302,6 @@
 				"/home/exxedlight/OWN/CustomHomePage/backup/bookmarks.json",
 				"/home/exxedlight/OWN/CustomHomePage/.gitignore",
 				"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
-				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
 				"/home/exxedlight/.config/gtk-4.0/settings.ini",
 				"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
@@ -306,18 +317,7 @@
 				"/usr/share/fastfetch/presets/examples/28.jsonc",
 				"/usr/share/fastfetch/presets/examples/2.jsonc",
 				"/usr/share/fastfetch/presets/ci.jsonc",
-				"/usr/share/fastfetch/presets/archey.jsonc",
-				"/usr/share/fastfetch/presets/all.jsonc",
-				"/home/exxedlight/.config/audacious/config",
-				"/home/exxedlight/.config/audacious/playlists/1000.audpl",
-				"/home/exxedlight/.cache/wofi-drun",
-				"/usr/share/applications/zen.desktop",
-				"/home/exxedlight/.local/share/applications/mimeinfo.cache",
-				"/home/exxedlight/.local/share/user-places.xbel",
-				"/home/exxedlight/.local/share/recently-used.xbel",
-				"/home/exxedlight/Env/scripts.txt",
-				"/home/exxedlight/.local/share/fonts/Vampir_new.ttf",
-				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh"
+				"/usr/share/fastfetch/presets/archey.jsonc"
 			],
 			"find":
 			{
@@ -335,6 +335,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"#000000bb",
 					"vf",
 					"color",
 					"я киваю",
@@ -348,6 +349,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"#000000aa"
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
@@ -463,6 +465,19 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/Games/Resident Evil 5/re5dx9.exe.CFG",
+				"/home/exxedlight/zDocs/WIP/njs-transport-agency/prisma/schema.prisma",
+				"/home/exxedlight/zDocs/WIP/njs-transport-agency/package.json",
+				"/home/exxedlight/zDocs/WIP/njs-transport-agency/src/lib/prisma.ts",
+				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_2203129G/names.json",
+				"/home/exxedlight/Downloads/Ashley Nude/Активировать модификацию Эшли.bat",
+				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
+				"/home/exxedlight/zDocs/WIP/nunit-whitebox/TestResult.xml",
+				"/home/exxedlight/zDocs/WIP/nunit-whitebox/Console.NUnit/coverage/coverage.cobertura.xml",
+				"/home/exxedlight/zDocs/WIP/nunit-whitebox/commands.txt",
+				"/home/exxedlight/.local/share/TelegramDesktop/tdata/editing-theme.tdesktop-palette",
+				"/home/exxedlight/zDocs/_Done/njs-devices-monitor/src/app/api/rooms/replacements/[deviceId]/route.ts",
+				"/home/exxedlight/zDocs/WIP/njs-medx-book/src/app/api/articles/route.ts",
 				"/home/exxedlight/.local/state/deadbeef/secrets",
 				"/home/exxedlight/.config/Thunar/accels.scm",
 				"/home/exxedlight/.config/Thunar/uca.xml",
@@ -544,7 +559,6 @@
 				"/home/exxedlight/Env/Scripts/power-monitor.sh",
 				"/home/exxedlight/zDocs/WIP/njs-devices-monitor/.env.local",
 				"/home/exxedlight/Рабочий стол/WannaPlay.txt.txt",
-				"/home/exxedlight/.local/share/TelegramDesktop/tdata/editing-theme.tdesktop-palette",
 				"/home/exxedlight/Zx20/.out/muiGal/gallery_disk_cache/small_size/4c7528f044493b4b5387bfcf98ef76a03acaa3f918d590d90e3b8ad5696c53cc.0",
 				"/home/exxedlight/zDocs/WIP/njs-devices-monitor/src/types/enums.ts",
 				"/home/exxedlight/OWN/PyDesktop/desktop.json",
@@ -563,7 +577,6 @@
 				"/home/exxedlight/OWN/CustomHomePage/backup/bookmarks.json",
 				"/home/exxedlight/OWN/CustomHomePage/.gitignore",
 				"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
-				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/bin/Debug/net8.0/content/Xiaomi_21081111RG/names.json",
 				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
 				"/home/exxedlight/.config/gtk-4.0/settings.ini",
 				"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
@@ -579,18 +592,7 @@
 				"/usr/share/fastfetch/presets/examples/28.jsonc",
 				"/usr/share/fastfetch/presets/examples/2.jsonc",
 				"/usr/share/fastfetch/presets/ci.jsonc",
-				"/usr/share/fastfetch/presets/archey.jsonc",
-				"/usr/share/fastfetch/presets/all.jsonc",
-				"/home/exxedlight/.config/audacious/config",
-				"/home/exxedlight/.config/audacious/playlists/1000.audpl",
-				"/home/exxedlight/.cache/wofi-drun",
-				"/usr/share/applications/zen.desktop",
-				"/home/exxedlight/.local/share/applications/mimeinfo.cache",
-				"/home/exxedlight/.local/share/user-places.xbel",
-				"/home/exxedlight/.local/share/recently-used.xbel",
-				"/home/exxedlight/Env/scripts.txt",
-				"/home/exxedlight/.local/share/fonts/Vampir_new.ttf",
-				"/home/exxedlight/Games/Ghost of Tsushima (2020-2024)/Ghost of Tsushima DIRECTORS CUT/launch.sh"
+				"/usr/share/fastfetch/presets/archey.jsonc"
 			],
 			"find":
 			{
@@ -608,6 +610,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"#000000bb",
 					"vf",
 					"color",
 					"я киваю",
@@ -621,6 +624,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"#000000aa"
 				],
 				"reverse": false,
 				"scrollbar_highlights": true,
