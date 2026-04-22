@@ -1,6 +1,9 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/.config/README.md",
+		"/home/exxedlight/Env/Backup/grub",
+		"/home/exxedlight/VirtualBox VMs/SharedMemory/test_link",
 		"/home/exxedlight/Games/Resident Evil 5/re5dx9.exe.CFG",
 		"/home/exxedlight/zDocs/WIP/njs-transport-agency/prisma/schema.prisma",
 		"/home/exxedlight/zDocs/WIP/njs-transport-agency/package.json",
@@ -90,7 +93,6 @@
 		"/home/exxedlight/.config/go/telemetry/local/weekends",
 		"/home/exxedlight/.config/go/telemetry/local/upload.token",
 		"/home/exxedlight/.config/fish/fish_variables",
-		"/home/exxedlight/.config/README.md",
 		"/home/exxedlight/Env/Scripts/set-wallpaper.sh",
 		"/home/exxedlight/Env/Scripts/power-monitor.sh",
 		"/home/exxedlight/zDocs/WIP/njs-devices-monitor/.env.local",
@@ -126,9 +128,7 @@
 		"/home/exxedlight/.config/fastfetch/config.jsonc",
 		"/home/exxedlight/.config/fastfetch/logo.txt",
 		"/usr/share/fastfetch/presets/examples/28.jsonc",
-		"/usr/share/fastfetch/presets/examples/2.jsonc",
-		"/usr/share/fastfetch/presets/ci.jsonc",
-		"/usr/share/fastfetch/presets/archey.jsonc"
+		"/usr/share/fastfetch/presets/examples/2.jsonc"
 	],
 	"folder_history":
 	[
@@ -136,7 +136,7 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1775226609,
+	"next_update_check": 1776945479,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -190,6 +190,9 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/README.md",
+				"/home/exxedlight/Env/Backup/grub",
+				"/home/exxedlight/VirtualBox VMs/SharedMemory/test_link",
 				"/home/exxedlight/Games/Resident Evil 5/re5dx9.exe.CFG",
 				"/home/exxedlight/zDocs/WIP/njs-transport-agency/prisma/schema.prisma",
 				"/home/exxedlight/zDocs/WIP/njs-transport-agency/package.json",
@@ -279,7 +282,6 @@
 				"/home/exxedlight/.config/go/telemetry/local/weekends",
 				"/home/exxedlight/.config/go/telemetry/local/upload.token",
 				"/home/exxedlight/.config/fish/fish_variables",
-				"/home/exxedlight/.config/README.md",
 				"/home/exxedlight/Env/Scripts/set-wallpaper.sh",
 				"/home/exxedlight/Env/Scripts/power-monitor.sh",
 				"/home/exxedlight/zDocs/WIP/njs-devices-monitor/.env.local",
@@ -315,9 +317,7 @@
 				"/home/exxedlight/.config/fastfetch/config.jsonc",
 				"/home/exxedlight/.config/fastfetch/logo.txt",
 				"/usr/share/fastfetch/presets/examples/28.jsonc",
-				"/usr/share/fastfetch/presets/examples/2.jsonc",
-				"/usr/share/fastfetch/presets/ci.jsonc",
-				"/usr/share/fastfetch/presets/archey.jsonc"
+				"/usr/share/fastfetch/presets/examples/2.jsonc"
 			],
 			"find":
 			{
@@ -465,6 +465,9 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/README.md",
+				"/home/exxedlight/Env/Backup/grub",
+				"/home/exxedlight/VirtualBox VMs/SharedMemory/test_link",
 				"/home/exxedlight/Games/Resident Evil 5/re5dx9.exe.CFG",
 				"/home/exxedlight/zDocs/WIP/njs-transport-agency/prisma/schema.prisma",
 				"/home/exxedlight/zDocs/WIP/njs-transport-agency/package.json",
@@ -554,7 +557,6 @@
 				"/home/exxedlight/.config/go/telemetry/local/weekends",
 				"/home/exxedlight/.config/go/telemetry/local/upload.token",
 				"/home/exxedlight/.config/fish/fish_variables",
-				"/home/exxedlight/.config/README.md",
 				"/home/exxedlight/Env/Scripts/set-wallpaper.sh",
 				"/home/exxedlight/Env/Scripts/power-monitor.sh",
 				"/home/exxedlight/zDocs/WIP/njs-devices-monitor/.env.local",
@@ -590,9 +592,7 @@
 				"/home/exxedlight/.config/fastfetch/config.jsonc",
 				"/home/exxedlight/.config/fastfetch/logo.txt",
 				"/usr/share/fastfetch/presets/examples/28.jsonc",
-				"/usr/share/fastfetch/presets/examples/2.jsonc",
-				"/usr/share/fastfetch/presets/ci.jsonc",
-				"/usr/share/fastfetch/presets/archey.jsonc"
+				"/usr/share/fastfetch/presets/examples/2.jsonc"
 			],
 			"find":
 			{
