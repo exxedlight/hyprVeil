@@ -35,6 +35,7 @@ text/x-csharp=dev.zed.Zed.desktop
 application/schema+json=dev.zed.Zed.desktop
 application/x-tiled-tsx=dev.zed.Zed.desktop
 image/vnd.microsoft.icon=org.nomacs.ImageLounge.desktop
+application/x-trash=org.nomacs.ImageLounge.desktop
 
 [Added Associations]
 text/plain=dev.zed.Zed.desktop;code.desktop;sublime_text.desktop;org.nomacs.ImageLounge.desktop;
@@ -59,3 +60,4 @@ application/schema+json=dev.zed.Zed.desktop;
 text/vnd.trolltech.linguist=dev.zed.Zed.desktop;
 application/x-tiled-tsx=dev.zed.Zed.desktop;
 image/vnd.microsoft.icon=org.nomacs.ImageLounge.desktop;
+application/x-trash=org.nomacs.ImageLounge.desktop;

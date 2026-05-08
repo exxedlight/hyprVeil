@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/.zcompdump-DESKTOP-RAV3N-5.9.zwc",
+		"/home/exxedlight/OWN/loom.css",
 		"/home/exxedlight/.config/README.md",
 		"/home/exxedlight/Env/Backup/grub",
 		"/home/exxedlight/VirtualBox VMs/SharedMemory/test_link",
@@ -126,9 +128,7 @@
 		"/home/exxedlight/.config/waypaper/config.ini",
 		"/home/exxedlight/.config/hypr/hyprpaper.conf",
 		"/home/exxedlight/.config/fastfetch/config.jsonc",
-		"/home/exxedlight/.config/fastfetch/logo.txt",
-		"/usr/share/fastfetch/presets/examples/28.jsonc",
-		"/usr/share/fastfetch/presets/examples/2.jsonc"
+		"/home/exxedlight/.config/fastfetch/logo.txt"
 	],
 	"folder_history":
 	[
@@ -136,7 +136,7 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1776945479,
+	"next_update_check": 1777982279,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -190,6 +190,8 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.zcompdump-DESKTOP-RAV3N-5.9.zwc",
+				"/home/exxedlight/OWN/loom.css",
 				"/home/exxedlight/.config/README.md",
 				"/home/exxedlight/Env/Backup/grub",
 				"/home/exxedlight/VirtualBox VMs/SharedMemory/test_link",
@@ -315,9 +317,7 @@
 				"/home/exxedlight/.config/waypaper/config.ini",
 				"/home/exxedlight/.config/hypr/hyprpaper.conf",
 				"/home/exxedlight/.config/fastfetch/config.jsonc",
-				"/home/exxedlight/.config/fastfetch/logo.txt",
-				"/usr/share/fastfetch/presets/examples/28.jsonc",
-				"/usr/share/fastfetch/presets/examples/2.jsonc"
+				"/home/exxedlight/.config/fastfetch/logo.txt"
 			],
 			"find":
 			{
@@ -465,6 +465,8 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.zcompdump-DESKTOP-RAV3N-5.9.zwc",
+				"/home/exxedlight/OWN/loom.css",
 				"/home/exxedlight/.config/README.md",
 				"/home/exxedlight/Env/Backup/grub",
 				"/home/exxedlight/VirtualBox VMs/SharedMemory/test_link",
@@ -590,9 +592,7 @@
 				"/home/exxedlight/.config/waypaper/config.ini",
 				"/home/exxedlight/.config/hypr/hyprpaper.conf",
 				"/home/exxedlight/.config/fastfetch/config.jsonc",
-				"/home/exxedlight/.config/fastfetch/logo.txt",
-				"/usr/share/fastfetch/presets/examples/28.jsonc",
-				"/usr/share/fastfetch/presets/examples/2.jsonc"
+				"/home/exxedlight/.config/fastfetch/logo.txt"
 			],
 			"find":
 			{
