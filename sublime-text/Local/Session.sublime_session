@@ -1,6 +1,9 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/OWN/hypr/old/look.conf",
+		"/home/exxedlight/OWN/hypr/old/windowrules.conf",
+		"/home/exxedlight/Env/Scripts/waybar-workspace-click.sh",
 		"/home/exxedlight/.zcompdump-DESKTOP-RAV3N-5.9.zwc",
 		"/home/exxedlight/OWN/loom.css",
 		"/home/exxedlight/.config/README.md",
@@ -125,10 +128,7 @@
 		"/home/exxedlight/Games/Sin.Spire/OneHack.Us.txt",
 		"/home/exxedlight/Games/Sin.Spire/README.txt",
 		"/home/exxedlight/.config/mpv/input.conf",
-		"/home/exxedlight/.config/waypaper/config.ini",
-		"/home/exxedlight/.config/hypr/hyprpaper.conf",
-		"/home/exxedlight/.config/fastfetch/config.jsonc",
-		"/home/exxedlight/.config/fastfetch/logo.txt"
+		"/home/exxedlight/.config/waypaper/config.ini"
 	],
 	"folder_history":
 	[
@@ -136,11 +136,11 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1777982279,
+	"next_update_check": 1778759879,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1024.0,
+		"new_window_height": 1023.0,
 		"new_window_maximized": true,
 		"new_window_position":
 		[
@@ -190,6 +190,9 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/OWN/hypr/old/look.conf",
+				"/home/exxedlight/OWN/hypr/old/windowrules.conf",
+				"/home/exxedlight/Env/Scripts/waybar-workspace-click.sh",
 				"/home/exxedlight/.zcompdump-DESKTOP-RAV3N-5.9.zwc",
 				"/home/exxedlight/OWN/loom.css",
 				"/home/exxedlight/.config/README.md",
@@ -314,14 +317,11 @@
 				"/home/exxedlight/Games/Sin.Spire/OneHack.Us.txt",
 				"/home/exxedlight/Games/Sin.Spire/README.txt",
 				"/home/exxedlight/.config/mpv/input.conf",
-				"/home/exxedlight/.config/waypaper/config.ini",
-				"/home/exxedlight/.config/hypr/hyprpaper.conf",
-				"/home/exxedlight/.config/fastfetch/config.jsonc",
-				"/home/exxedlight/.config/fastfetch/logo.txt"
+				"/home/exxedlight/.config/waypaper/config.ini"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
@@ -335,6 +335,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"special",
+					"magic",
 					"#000000bb",
 					"vf",
 					"color",
@@ -465,6 +467,9 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/OWN/hypr/old/look.conf",
+				"/home/exxedlight/OWN/hypr/old/windowrules.conf",
+				"/home/exxedlight/Env/Scripts/waybar-workspace-click.sh",
 				"/home/exxedlight/.zcompdump-DESKTOP-RAV3N-5.9.zwc",
 				"/home/exxedlight/OWN/loom.css",
 				"/home/exxedlight/.config/README.md",
@@ -589,14 +594,11 @@
 				"/home/exxedlight/Games/Sin.Spire/OneHack.Us.txt",
 				"/home/exxedlight/Games/Sin.Spire/README.txt",
 				"/home/exxedlight/.config/mpv/input.conf",
-				"/home/exxedlight/.config/waypaper/config.ini",
-				"/home/exxedlight/.config/hypr/hyprpaper.conf",
-				"/home/exxedlight/.config/fastfetch/config.jsonc",
-				"/home/exxedlight/.config/fastfetch/logo.txt"
+				"/home/exxedlight/.config/waypaper/config.ini"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
@@ -610,6 +612,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"special",
+					"magic",
 					"#000000bb",
 					"vf",
 					"color",
@@ -651,7 +655,7 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,953,1022,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,1910,1021,1920,1080,0",
 			"replace":
 			{
 				"height": 48.0

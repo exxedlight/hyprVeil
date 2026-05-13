@@ -38,7 +38,7 @@ image/vnd.microsoft.icon=org.nomacs.ImageLounge.desktop
 application/x-trash=org.nomacs.ImageLounge.desktop
 
 [Added Associations]
-text/plain=dev.zed.Zed.desktop;code.desktop;sublime_text.desktop;org.nomacs.ImageLounge.desktop;
+text/plain=sublime_text.desktop;dev.zed.Zed.desktop;code.desktop;org.nomacs.ImageLounge.desktop;
 text/html=sublime_text.desktop;
 image/png=drawio.desktop;krita_png.desktop;org.nomacs.ImageLounge.desktop;
 image/jpeg=org.nomacs.ImageLounge.desktop;
@@ -46,7 +46,7 @@ image/svg+xml=org.nomacs.ImageLounge.desktop;
 image/gif=org.nomacs.ImageLounge.desktop;
 image/webp=krita_qimageio.desktop;org.nomacs.ImageLounge.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;onlyoffice-desktopeditors.desktop;
-application/x-zerosize=onlyoffice-desktopeditors.desktop;dev.zed.Zed.desktop;code-oss.desktop;sublime_text.desktop;
+application/x-zerosize=sublime_text.desktop;onlyoffice-desktopeditors.desktop;dev.zed.Zed.desktop;code-oss.desktop;
 application/octet-stream=sublime_text.desktop;userapp-mpv-W22WJ3.desktop;
 application/x-pak=org.gnome.FileRoller.desktop;
 text/markdown=dev.zed.Zed.desktop;
