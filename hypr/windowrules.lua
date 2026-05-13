@@ -9,15 +9,15 @@
 -- TAGS
 hl.window_rule({ match = { tag = "opaque" }, opaque = true })
 
-
-local suppressMaximizeRule = hl.window_rule({
-    -- Ignore maximize requests from all apps. You'll probably like this.
+-- Ignore maximize requests from all apps.
+hl.window_rule({
     name  = "suppress-maximize-events",
     match = { class = ".*" },
-
     suppress_event = "maximize",
 })
+-- local suppressMaximizeRule = hl.window_rule({...})
 -- suppressMaximizeRule:set_enabled(false)
+
 
 hl.window_rule({
     -- Fix some dragging issues with XWayland
@@ -52,9 +52,6 @@ hl.window_rule({
 })
 
 
--- +---------+
--- |  BLUR   |
--- +---------+
 -- NO_BLUR for these apps:
 hl.window_rule({
     match   = { class = "kitty|vivaldi|vivaldi-stable|code|org.telegram.desktop|btop-primary|btop-waybar" },
@@ -67,7 +64,7 @@ hl.window_rule({
 -- +---------------------------+
 hl.window_rule({ match = { content = "photo" }, opacity = "1.0" })  -- images
 hl.window_rule({ match = { content = "video" }, opacity = "1.0" })  -- videos
-hl.window_rule({ match = { content = "game" },  opacity = "1.0" })  -- videos
+hl.window_rule({ match = { content = "game" },  opacity = "1.0" })  -- games
 
 
 -- +-----------------------------+
@@ -89,15 +86,14 @@ hl.window_rule({
 -- |  KITTY   |
 -- +----------+
 hl.window_rule({
-    name    = "KittyRules",
     match   = { class = "kitty" },
     opacity = "0.7 override 0.5 override",
 })
 
 
--- +-----------+
--- |  VIVALDI  |
--- +-----------+
+-- +------------+
+-- |  BROWSERS  |
+-- +------------+
 hl.window_rule({
     match   = { class = "vivaldi-stable" },
     opacity = "0.9 override 0.9 override 1.0 override",

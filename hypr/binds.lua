@@ -31,16 +31,21 @@ hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 
+hl.bind(mainMod .. " + L",  hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mainMod .. " + F1", hl.dsp.exec_cmd("hyprlock & sleep 0.5; systemctl suspend"))
+hl.bind(mainMod .. " + F7", hl.dsp.dpms({action = "toggle"}))
+
+
 
 -- Clipboard manager (cliphist)
 hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("cliphist list | wofi --dmenu --pre-display-cmd \"echo '%s' | cut -f 2\" | cliphist decode | wl-copy"))
 -- Active window opacity toggle
 -- v1
--- hl.bind(mainMod .. " + O", hl.dsp.window.set_prop({ prop = "opaque", value = "toggle" }))
+hl.bind(mainMod .. " + O", hl.dsp.window.set_prop({ prop = "opaque", value = "toggle" }))
 -- v2
-hl.bind(mainMod .. " + O", function()
-    hl.dispatch(hl.dsp.window.tag({ tag = "opaque" }))
-end)
+--hl.bind(mainMod .. " + O", function()
+--    hl.dispatch(hl.dsp.window.tag({ tag = "opaque" }))
+--end)
 
 
 -- POWER PLANS
@@ -63,11 +68,11 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
 end
 -- Scroll through existing workspaces with mainMod + scroll
-hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "-1" }))
-hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "+1" }))
+hl.bind(mainMod .. " + mouse_down",         hl.dsp.focus({ workspace = "-1" }))
+hl.bind(mainMod .. " + mouse_up",           hl.dsp.focus({ workspace = "+1" }))
 hl.bind(mainMod .. " + SHIFT + mouse_down", hl.dsp.window.move({ workspace = "r-1" }))
-hl.bind(mainMod .. " + SHIFT + mouse_up", hl.dsp.window.move({ workspace = "r+1" }))
-hl.bind("ALT + TAB", hl.dsp.focus({ workspace = "previous" }))
+hl.bind(mainMod .. " + SHIFT + mouse_up",   hl.dsp.window.move({ workspace = "r+1" }))
+hl.bind("ALT + TAB",                        hl.dsp.focus({ workspace = "previous" }))
 
 
 -- Example special workspace (scratchpad)
@@ -125,6 +130,6 @@ hl.bind(mainMod .. " + SHIFT + ESCAPE", hl.dsp.exec_cmd("kitty -e --class \"btop
 hl.bind("F12", hl.dsp.exec_cmd("~/Env/Scripts/f12screenshot.sh"))                                                                       -- Screen and save in file
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("grimblast copy area"))                                                              -- Copy area to clipboard
 hl.bind(mainMod .. " + CTRL + S",  hl.dsp.exec_cmd("grimblast --freeze save output - | satty --disable-notifications --filename -"))    -- Fullscreen freeze and overlay markup
-hl.bind(mainMod .. " + Print",     hl.dsp.exec_cmd("grim - | wl-copy"), { locked= true })                                               -- Fullscreen copy to clipboard
+hl.bind(           "PRINT",        hl.dsp.exec_cmd("grim - | wl-copy"), { locked= true })                                               -- Fullscreen copy to clipboard
 hl.bind(mainMod .. " + F10",       hl.dsp.exec_cmd("~/Env/Scripts/toogle-video-record.sh"))                                             -- Video record toogle
 
