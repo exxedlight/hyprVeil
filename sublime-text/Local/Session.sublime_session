@@ -1,6 +1,14 @@
 {
 	"file_history":
 	[
+		"/home/exxedlight/.config/waybar/topbar/style.css",
+		"/home/exxedlight/zPrograms/SAI2/SAI2/sai2.ini",
+		"/home/exxedlight/Env/WinePrefixes/Ero/drive_c/users/exxedlight/Application Data/Goldberg SteamEmu Saves/295336/remote/X.COLON/Games/Ero/Kaiju_Princess/Kaiju Princess 2_Data/config.sf",
+		"/home/exxedlight/Downloads/void-requm-analysis.md",
+		"/home/exxedlight/Downloads/quickshell/README.md",
+		"/home/exxedlight/Env/WinePrefixes/Ero/drive_c/users/exxedlight/AppData/Local/WebCam_Girl_Sim/Saved/Crashes/UECC-Windows-D3281A7F4E27522C92326DAA1FD2700A_0000/CrashContext.runtime-xml",
+		"/home/exxedlight/Desktop/4_articles_content.sql",
+		"/home/exxedlight/Desktop/articles.sql",
 		"/home/exxedlight/OWN/hypr/old/look.conf",
 		"/home/exxedlight/OWN/hypr/old/windowrules.conf",
 		"/home/exxedlight/Env/Scripts/waybar-workspace-click.sh",
@@ -120,15 +128,7 @@
 		"/home/exxedlight/OWN/CustomHomePage/backup/bookmarks.json",
 		"/home/exxedlight/OWN/CustomHomePage/.gitignore",
 		"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
-		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-		"/home/exxedlight/.config/gtk-4.0/settings.ini",
-		"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
-		"/home/exxedlight/.config/MangoHud/MangoHud.conf",
-		"/home/exxedlight/.config/cachyos-hello.json",
-		"/home/exxedlight/Games/Sin.Spire/OneHack.Us.txt",
-		"/home/exxedlight/Games/Sin.Spire/README.txt",
-		"/home/exxedlight/.config/mpv/input.conf",
-		"/home/exxedlight/.config/waypaper/config.ini"
+		"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json"
 	],
 	"folder_history":
 	[
@@ -136,11 +136,11 @@
 	"last_version": 4200,
 	"last_window_id": 6,
 	"log_indexing": false,
-	"next_update_check": 1778759879,
+	"next_update_check": 1786116042,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1023.0,
+		"new_window_height": 514.0,
 		"new_window_maximized": true,
 		"new_window_position":
 		[
@@ -190,6 +190,14 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/waybar/topbar/style.css",
+				"/home/exxedlight/zPrograms/SAI2/SAI2/sai2.ini",
+				"/home/exxedlight/Env/WinePrefixes/Ero/drive_c/users/exxedlight/Application Data/Goldberg SteamEmu Saves/295336/remote/X.COLON/Games/Ero/Kaiju_Princess/Kaiju Princess 2_Data/config.sf",
+				"/home/exxedlight/Downloads/void-requm-analysis.md",
+				"/home/exxedlight/Downloads/quickshell/README.md",
+				"/home/exxedlight/Env/WinePrefixes/Ero/drive_c/users/exxedlight/AppData/Local/WebCam_Girl_Sim/Saved/Crashes/UECC-Windows-D3281A7F4E27522C92326DAA1FD2700A_0000/CrashContext.runtime-xml",
+				"/home/exxedlight/Desktop/4_articles_content.sql",
+				"/home/exxedlight/Desktop/articles.sql",
 				"/home/exxedlight/OWN/hypr/old/look.conf",
 				"/home/exxedlight/OWN/hypr/old/windowrules.conf",
 				"/home/exxedlight/Env/Scripts/waybar-workspace-click.sh",
@@ -309,19 +317,11 @@
 				"/home/exxedlight/OWN/CustomHomePage/backup/bookmarks.json",
 				"/home/exxedlight/OWN/CustomHomePage/.gitignore",
 				"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
-				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-				"/home/exxedlight/.config/gtk-4.0/settings.ini",
-				"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
-				"/home/exxedlight/.config/MangoHud/MangoHud.conf",
-				"/home/exxedlight/.config/cachyos-hello.json",
-				"/home/exxedlight/Games/Sin.Spire/OneHack.Us.txt",
-				"/home/exxedlight/Games/Sin.Spire/README.txt",
-				"/home/exxedlight/.config/mpv/input.conf",
-				"/home/exxedlight/.config/waypaper/config.ini"
+				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json"
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -467,6 +467,14 @@
 			},
 			"file_history":
 			[
+				"/home/exxedlight/.config/waybar/topbar/style.css",
+				"/home/exxedlight/zPrograms/SAI2/SAI2/sai2.ini",
+				"/home/exxedlight/Env/WinePrefixes/Ero/drive_c/users/exxedlight/Application Data/Goldberg SteamEmu Saves/295336/remote/X.COLON/Games/Ero/Kaiju_Princess/Kaiju Princess 2_Data/config.sf",
+				"/home/exxedlight/Downloads/void-requm-analysis.md",
+				"/home/exxedlight/Downloads/quickshell/README.md",
+				"/home/exxedlight/Env/WinePrefixes/Ero/drive_c/users/exxedlight/AppData/Local/WebCam_Girl_Sim/Saved/Crashes/UECC-Windows-D3281A7F4E27522C92326DAA1FD2700A_0000/CrashContext.runtime-xml",
+				"/home/exxedlight/Desktop/4_articles_content.sql",
+				"/home/exxedlight/Desktop/articles.sql",
 				"/home/exxedlight/OWN/hypr/old/look.conf",
 				"/home/exxedlight/OWN/hypr/old/windowrules.conf",
 				"/home/exxedlight/Env/Scripts/waybar-workspace-click.sh",
@@ -586,19 +594,11 @@
 				"/home/exxedlight/OWN/CustomHomePage/backup/bookmarks.json",
 				"/home/exxedlight/OWN/CustomHomePage/.gitignore",
 				"/home/exxedlight/Games/Kaiju_Princess/Пароль на архив_ Archive password.txt",
-				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json",
-				"/home/exxedlight/.config/gtk-4.0/settings.ini",
-				"/home/exxedlight/.config/sublime-text/Packages/User/Preferences.sublime-settings",
-				"/home/exxedlight/.config/MangoHud/MangoHud.conf",
-				"/home/exxedlight/.config/cachyos-hello.json",
-				"/home/exxedlight/Games/Sin.Spire/OneHack.Us.txt",
-				"/home/exxedlight/Games/Sin.Spire/README.txt",
-				"/home/exxedlight/.config/mpv/input.conf",
-				"/home/exxedlight/.config/waypaper/config.ini"
+				"/home/exxedlight/OWN/MAUI/ImaginaryV2_Server/Server/Server/content/Xiaomi_21081111RG/names.json"
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 26.0
 			},
 			"find_in_files":
 			{
@@ -655,7 +655,7 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,1910,1021,1920,1080,0",
+			"position": "0,1,0,0,0,0,0,1910,1026,1920,1080,0",
 			"replace":
 			{
 				"height": 48.0

@@ -1,30 +1,37 @@
 # Положение
 anchor=top-right
-margin=0,10,2,0
+margin=10,10,2,0
 
-# Внешний вид
-background-color=#21222C99
+# === Visual
+background-color=#0e041066
 text-color=#ffffff
-border-color=#343746
-border-radius=5,15,5,15
-border-size=1
+border-color=#b289e899
+border-radius=3,20,3,20
+border-size=2
 padding=5
 font=Symbols Nerd Font 10
 
-# Поведение
+# === Behavior
 default-timeout=3000
 ignore-timeout=0
 sort=-time
 max-visible=10
 
-# Группировка
+# === Max size
+width=400
+height=800
+
+
+# === Grouping
 # group-by=app-name
 
 history=1
 max-history=100
+
+# === Sound
 on-notify=exec canberra-gtk-play -f ~/Env/Sounds/notification.wav >/dev/null 2>&1 &
 
 
-
+# === Notify without sound
 [app-name="silent-notify"]
 on-notify=none

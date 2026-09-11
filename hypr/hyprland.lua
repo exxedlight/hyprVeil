@@ -36,15 +36,11 @@ require("binds")
 -- ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░  ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░  ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
 -- ░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░   ░▒▓█▓▒░   ░▒▓██████▓▒░░▒▓███████▓▒░   ░▒▓█▓▒░  ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
 hl.on("hyprland.start", function ()
-    hl.exec_cmd("waybar -c ~/.config/waybar/topbar/config.jsonc -s ~/.config/waybar/topbar/style.css")
-    hl.exec_cmd("waybar -c ~/.config/waybar/bottombar/config.jsonc -s ~/.config/waybar/bottombar/style.css")
+    hl.exec_cmd("ags run /home/exxedlight/OWN/Betwixt/app.ts");
     hl.exec_cmd("hyprpaper")
     hl.exec_cmd("sleep 5 && audacious")
     hl.exec_cmd("mako")
     hl.exec_cmd("bluetoothctl power off >/dev/null")
-    hl.exec_cmd("~/OWN/PyDesktop/main.py")
-    hl.exec_cmd("~/Env/Scripts/power-monitor.sh")
-    hl.exec_cmd("~/.config/waybar/scripts/power-plan-change.sh balanced")
     hl.exec_cmd("hyprctl setcursor Future-cyan-cursors 18")
     hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
     hl.exec_cmd("cliphist wipe")
@@ -67,7 +63,8 @@ hl.env("XCURSOR_SIZE", "18")
 hl.env("HYPRCURSOR_SIZE", "18")
 hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 hl.env("AQ_DRM_DEVICES", "/dev/dri/card2:/dev/dri/card1")
-hl.env("AQ_NO_EXPLICIT_SYNC","1")
+hl.env("AQ_NO_EXPLICIT_SYNC", "1")
+hl.env("SLURP_ARGS", "-w 0")
 
 
 

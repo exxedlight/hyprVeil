@@ -34,14 +34,6 @@ hl.window_rule({
     no_focus = true,
 })
 
--- Layer rules also return a handle.
--- local overlayLayerRule = hl.layer_rule({
---     name  = "no-anim-overlay",
---     match = { namespace = "^my-overlay$" },
---     no_anim = true,
--- })
--- overlayLayerRule:set_enabled(false)
-
 -- Hyprland-run windowrule
 hl.window_rule({
     name  = "move-hyprland-run",
@@ -52,35 +44,54 @@ hl.window_rule({
 })
 
 
+
 -- NO_BLUR for these apps:
 hl.window_rule({
-    match   = { class = "kitty|vivaldi|vivaldi-stable|code|org.telegram.desktop|btop-primary|btop-waybar" },
+    match   = { class = "kitty|vivaldi|vivaldi-stable|code|org.telegram.desktop|btop-primary" },
     no_blur = true,
 })
+
 
 
 -- +---------------------------+
 -- |  OPACITY — content types  |
 -- +---------------------------+
-hl.window_rule({ match = { content = "photo" }, opacity = "1.0" })  -- images
-hl.window_rule({ match = { content = "video" }, opacity = "1.0" })  -- videos
-hl.window_rule({ match = { content = "game" },  opacity = "1.0" })  -- games
+hl.window_rule({ match = { content = "photo" }, opaque = true })  -- images
+hl.window_rule({ match = { content = "video" }, opaque = true })  -- videos
+hl.window_rule({ match = { content = "game" },  opaque = true })  -- games
 
 
 -- +-----------------------------+
 -- |  OPACITY — no transparency  |
 -- +-----------------------------+
 -- Workspaces 10-12
-hl.window_rule({ match = { workspace = "10" }, opacity = "1.0 override" })
-hl.window_rule({ match = { workspace = "11" }, opacity = "1.0 override" })
-hl.window_rule({ match = { workspace = "12" }, opacity = "1.0 override" })
+hl.window_rule({ match = { workspace = "10" }, opaque = true })
+hl.window_rule({ match = { workspace = "11" }, opaque = true })
+hl.window_rule({ match = { workspace = "12" }, opaque = true })
 
--- Specific apps — always opaque
+
+-- +-----------------------------+
+-- |   TRANSPIERENCE SETTINGS    |
+-- +-----------------------------+
 hl.window_rule({
-    match  = { class = "org.nomacs.ImageLounge|krita|draw.io|thunar|dev.zed.Zed|mpv" },
+    -- ALWAYS OPAQUE APPS
+    match  = { class = "org.nomacs.ImageLounge|krita|draw.io|thunar|dev.zed.Zed|mpv|phototonic" },
     opaque = true,
 })
-
+hl.window_rule({
+    -- SLIGHT TRANSPARENT APPS
+    match = { class = "org.gnome.Evince" },
+    opacity = "0.95 override"
+})
+hl.window_rule({
+    -- ALWAYS OPAQUE WEB-SITES IN BROWSERS
+    match  = {
+        class = "vivaldi|vivaldi-stable",
+        title = ".*YouTube.*|.*Reddit.*|.*/gg/.*|.*ity F.*",
+    },
+    opaque = true
+})
+-- --------------------------------------------------------------------------------------
 
 -- +----------+
 -- |  KITTY   |
@@ -119,59 +130,21 @@ hl.window_rule({
     },
     float = true,
 })
-hl.window_rule({
-    name   = "VivaldiYoutube",
-    match  = {
-        class = "vivaldi|vivaldi-stable",
-        title = ".*YouTube.*",
-    },
-    opaque = true,
-})
 
 
--- +-------------------+
--- |  WAYBAR SCRIPTS   |
--- +-------------------+
-hl.window_rule({
-    name      = "WaybarPowerMenu",
-    match     = { class = "kitty", title = "power-menu.sh" },
-    float     = true,
-    size      = { 400, 135 },
-    move      = "1920-405 30",
-    animation = "slide right",
-    dim_around = true,
-})
-hl.window_rule({
-    name      = "WaybarBottomControlsSh",
-    match     = { class = "kitty", title = "network.sh|bluetooth.sh" },
-    float     = true,
-    size      = { 800, 300 },
-    move      = "(1920-800)/2 1080-35-300",
-    animation = "slide",
-})
--- Volume (pavucontrol)
-hl.window_rule({
-    name       = "SoundMixher-Pavucontrol",
-    match      = { class = "pavucontrol" },
-    float      = true,
-    size       = { 900, "(1080-60)" },
-    move       = "(1920-900-5) 30",
-    xray       = true,
-})
 
-
--- +-----------+
--- |  NOMACS   |
--- +-----------+
+-- +-----------------+
+-- |  IMAGE VIEWER   |
+-- +-----------------+
 hl.window_rule({
-    name        = "nomacs",
-    match       = { class = "org.nomacs.ImageLounge" },
+    name        = "ImageViewers",
+    match       = { class = "org.nomacs.ImageLounge|org.gnome.gThumb|phototonic" },
     float       = true,
-    size        = { 1920, 1080 },
-    move        = "0 0",
+    fullscreen  = true,
     opaque      = true,
     border_size = 0,
     rounding    = 0,
+    fullscreen_state = "3"
 })
 
 
@@ -196,9 +169,9 @@ hl.window_rule({
 hl.window_rule({
     name      = "TelegramViewer",
     match     = { class = "org.telegram.desktop", title = "Просмотр медиа" },
-    opacity   = "1.0 override",
+    opaque    = true,
     float     = true,
-    size      = { "1920-10", "1080-60" },
+    fullscreen_state = "1"
 })
 hl.window_rule({
     match = { title = ".*Выберите изображение.*" },
@@ -246,24 +219,9 @@ hl.window_rule({
     name        = "MPV",
     match       = { class = "mpv" },
     float       = true,
-    opacity     = "1.0",
+    opaque      = true,
     border_size = 0,
     rounding    = 0,
-})
-
-
--- +------------------+
--- |  CUSTOM DESKTOP  |
--- +------------------+
-hl.window_rule({
-    name        = "quickdesktop",
-    match       = { class = "com.exx.quickdesktop" },
-    opacity     = "1.0 override",
-    border_size = 0,
-    decorate    = false,
-    workspace   = "special:magic",
-    animation   = "slide top"
-    -- dim_around = true,
 })
 
 
@@ -282,11 +240,17 @@ hl.window_rule({
 -- |  AUDACIOUS  |
 -- +-------------+
 hl.window_rule({
+    name = "audacious-float",
+    match = { class = "audacious" },
+    float = true,
+    size = {800, 600}
+})
+hl.window_rule({
     name             = "audacious",
-    match            = { class = "Audacious", title = ".*Audacious.*" },
+    match            = { class = "audacious", title = ".*Audacious.*" },
     float            = true,
     size             = { 900, 800 },
-    move             = "(1920-900)/2 35",
+    move             = "(monitor_w-900)/2 30",
     opacity          = "0.8",
     animation        = "slide top",
     no_initial_focus = true,
@@ -298,9 +262,9 @@ hl.window_rule({
 })
 hl.window_rule({
     name             = "audacious_song_search",
-    match            = { class = "Audacious", title = "Jump to Song.*|Перейти к композиции.*" },
+    match            = { class = "audacious", title = "Jump to Song.*|Перейти к композиции.*" },
     float            = true,
-    move             = "650 35",
+    move             = "650 27",
     animation        = "slide top",
     opacity          = "0.7 override 0.5 override",
     dim_around       = true,
@@ -316,23 +280,9 @@ hl.window_rule({
     match       = { class = "btop-primary" },
     float       = true,
     opacity     = "0.7 override",
-    size        = { 1910, "1080-60" },
+    size        = { 1910, "monitor_h-55" },
     decorate    = false,
     xray        = false,
-})
--- Waybar panels (bottom)
-hl.window_rule({
-    name             = "BtopCPU",
-    match            = { class = "btop-waybar" },
-    float            = true,
-    size             = { 900, 300 },
-    move             = "(1920-900)/2 1080-30-300",
-    animation        = "slide",
-    no_initial_focus = true,
-    border_size      = 0,
-    no_shadow        = true,
-    opacity          = "0.75 override",
-    persistent_size  = false,
 })
 
 
@@ -344,7 +294,7 @@ hl.window_rule({
     match      = { class = "com.gabm.satty" },
     float      = true,
     opaque     = true,
-    fullscreen = true,
+    fullscreen = true
 })
 
 
@@ -361,7 +311,7 @@ hl.window_rule({
     name        = "VBoxMachineWide",
     match       = { class = "VirtualBox Machine" },
     float       = true,
-    size        = { 1920, "(1080-50)" },
+    size        = { "monitor_w", "(monitor_h-55)" },
     move        = "0 25",
     rounding    = 0,
     no_shadow   = true,
@@ -383,7 +333,7 @@ hl.window_rule({
     border_size = 0,
     rounding    = 0,
     workspace   = "10",
-    opacity     = "1.0 override 1.0 override 1.0 override",
+    opaque      = true
 })
 -- Proton / steam_app
 hl.window_rule({

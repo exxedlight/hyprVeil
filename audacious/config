@@ -25,23 +25,22 @@ equalizer_active=TRUE
 equalizer_bands=6,4,2,1,-3,1,2,3,5,6
 leading_zero=TRUE
 metadata_fallbacks=FALSE
+no_confirm_playlist_delete=TRUE
 output_buffer_size=1000
 repeat=TRUE
 replay_gain_mode=2
 replay_gain_preamp=3
-show_interface=FALSE
 soft_clipping=TRUE
 
 [audgui]
 about_win=669,340,582,400
 clear_song_fields=FALSE
-eq_preset_win=1415,466,476,293
+eq_preset_win=0,0,476,293
 equalizer_win=1453,160,418,288
 filebrowser_win=564,300,791,480
 filesel_path=/home/exxedlight/Zx20/Sounds/In This Moment
-info_win=551,303,818,473
-jump_to_track_win=650,35,665,480
-no_confirm_playlist_delete=TRUE
+info_win=0,0,800,600
+jump_to_track_win=0,0,800,600
 
 [audqt]
 icon_theme=audacious-flat-dark
@@ -85,9 +84,10 @@ NumHotkeys=3
 
 [gtkui]
 close_button_visible=FALSE
-column_widths=85,649,297,10,175,175,10,100,45,85,275,275,275,45,275,175,75,10
+column_widths=85,649,297,10,175,175,10,100,45,85,275,275,275,45,275,175,75,10,50,50
 menu_visible=FALSE
 player_height=800
+player_maximized=TRUE
 player_width=900
 player_x=510
 player_y=35
@@ -113,7 +113,11 @@ item6_name=Размывающийся уровень
 item6_pos=-1,1380,1041,347,34
 item7_name=Спектральный анализатор (OpenGL)
 item7_pos=-1,350,259,1554,768
-item_count=8
+item8_name=Playlist Manager
+item8_pos=-1,0,0,796,596
+item9_name=Lyrics
+item9_pos=-1,0,0,796,596
+item_count=10
 
 [lyricwiki]
 remote-source=nowhere
