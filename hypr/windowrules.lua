@@ -7,7 +7,8 @@
 --  ░▒▓█████████████▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░ ░▒▓██████▓▒░ ░▒▓█████████████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓████████▓▒░▒▓████████▓▒░▒▓███████▓▒░
 
 -- TAGS
-hl.window_rule({ match = { tag = "opaque" }, opaque = true })
+-- hl.window_rule({ match = { tag = "opaque" },     opaque = true })
+-- hl.window_rule({ match = { tag = "fullscreen" }, fullscreen_state = "3" })
 
 -- Ignore maximize requests from all apps.
 hl.window_rule({
@@ -75,21 +76,13 @@ hl.window_rule({ match = { workspace = "12" }, opaque = true })
 -- +-----------------------------+
 hl.window_rule({
     -- ALWAYS OPAQUE APPS
-    match  = { class = "org.nomacs.ImageLounge|krita|draw.io|thunar|dev.zed.Zed|mpv|phototonic" },
+    match  = { class = ".*nomacs.*|krita|draw.io|thunar|.*Zed|mpv|phototonic" },
     opaque = true,
 })
 hl.window_rule({
     -- SLIGHT TRANSPARENT APPS
-    match = { class = "org.gnome.Evince" },
+    match = { class = ".*Evince|.*gThumb" },
     opacity = "0.95 override"
-})
-hl.window_rule({
-    -- ALWAYS OPAQUE WEB-SITES IN BROWSERS
-    match  = {
-        class = "vivaldi|vivaldi-stable",
-        title = ".*YouTube.*|.*Reddit.*|.*/gg/.*|.*ity F.*",
-    },
-    opaque = true
 })
 -- --------------------------------------------------------------------------------------
 
@@ -106,14 +99,6 @@ hl.window_rule({
 -- |  BROWSERS  |
 -- +------------+
 hl.window_rule({
-    match   = { class = "vivaldi-stable" },
-    opacity = "0.9 override 0.9 override 1.0 override",
-})
-hl.window_rule({
-    match   = { class = "zen" },
-    opacity = "0.99 override 0.9 override 1.0 override",
-})
-hl.window_rule({
     name  = "VivaldiFileOperations",
     match = {
         class = "vivaldi|vivaldi-stable",
@@ -125,17 +110,36 @@ hl.window_rule({
 hl.window_rule({
     name  = "VivaldiSettings",
     match = {
-        class = "vivaldi-stable",
+        class = "vivaldi.*",
         title = "Vivaldi Settings.*|Настройки Vivaldi.*",
     },
     float = true,
 })
+-- +~~~~~~~~~~~~~~~~~~~~~~+
+--  ---->>>   OPACITY   <<<
+-- +~~~~~~~~~~~~~~~~~~~~~~+
+hl.window_rule({
+    -- ALWAYS OPAQUE WEB-SITES
+    match  = {
+        class = "vivaldi.*",
+        title = ".*YouTube.*|.*Reddit.*|.*/gg/.*|.*ity F.*|.*nkr.*",
+    },
+    opaque = true
+})
+hl.window_rule({
+    -- SLIGHT TRANSPARENT WEB-SITES
+    match = {
+        class = "vivaldi.*",
+        title = ".*Nexus mods.*|.*Nexus Mods.*"
+    },
+    opacity = "0.97 override"
+})
 
 
 
--- +-----------------+
--- |  IMAGE VIEWER   |
--- +-----------------+
+-- +------------------+
+-- |  IMAGE VIEWERS   |
+-- +------------------+
 hl.window_rule({
     name        = "ImageViewers",
     match       = { class = "org.nomacs.ImageLounge|org.gnome.gThumb|phototonic" },
@@ -163,15 +167,17 @@ hl.window_rule({
 -- +------------+
 hl.window_rule({
     name      = "TelegramWorkspace",
-    match     = { class = "org.telegram.desktop" },
+    match     = { class = "org.telegram.desktop|com.ayugram.desktop" },
     workspace = "1",
+    opacity   = "0.95 override"
 })
 hl.window_rule({
-    name      = "TelegramViewer",
-    match     = { class = "org.telegram.desktop", title = "Просмотр медиа" },
-    opaque    = true,
-    float     = true,
-    fullscreen_state = "1"
+    name       = "TelegramViewer",
+    match      = { class = ".*telegram.*|.*ayugram.*", title = "Просмотр медиа|Просмотр медиа" },
+    opaque     = true,
+    float      = true,
+    size       = { "monitor_w - 10", "monitor_h - 54" },
+    fullscreen = false,
 })
 hl.window_rule({
     match = { title = ".*Выберите изображение.*" },
@@ -184,13 +190,8 @@ hl.window_rule({
 -- |  THUNAR  |
 -- +----------+
 hl.window_rule({
-    name  = "ThunarRename",
-    match = { title = "Rename.*|Переименовать.*" },
-    float = true,
-})
-hl.window_rule({
     name  = "ThunarFileActions",
-    match = { title = "File Operation Progress.*|Действия над файлами.*" },
+    match = { title = "Rename.*|Переименовать.*|File Operation Progress.*|Действия над файлами.*" },
     float = true,
 })
 
@@ -274,7 +275,6 @@ hl.window_rule({
 -- +--------+
 -- |  BTOP  |
 -- +--------+
--- Main window
 hl.window_rule({
     name        = "BtopPrimaryWindow",
     match       = { class = "btop-primary" },
@@ -283,6 +283,17 @@ hl.window_rule({
     size        = { 1910, "monitor_h-55" },
     decorate    = false,
     xray        = false,
+})
+
+-- +---------------+
+-- |  PAVUCONTROL  |
+-- +---------------+
+hl.window_rule({
+    match = { class = "pavucontrol" },
+    float = true,
+    size = { 900, 600 },
+    move = {"monitor_w - 900 - 5", "monitor_h - 600 - 24"},
+    opaque = true
 })
 
 

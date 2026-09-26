@@ -17,11 +17,6 @@ hl.monitor({
 
 require("look")
 require("windowrules")
-
-local terminal    = "kitty"
-local fileManager = "thunar"
-local menu        = "wofi --show drun --sort-order alphabetical"
-
 require("binds")
 
 -------------------
@@ -56,8 +51,6 @@ end)
 
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
 
-hl.env("XCURSOR_SIZE", "24")
-hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("XCURSOR_THEME", "Future-cyan-cursors")
 hl.env("XCURSOR_SIZE", "18")
 hl.env("HYPRCURSOR_SIZE", "18")

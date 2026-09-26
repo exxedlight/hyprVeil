@@ -7,6 +7,8 @@
 -- ░▒▓████████▓▒░▒▓██████▓▒░ ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 
+local colors = require("colors")
+
 hl.config({
     general = {
         gaps_in  = 1,
@@ -15,28 +17,29 @@ hl.config({
         border_size = 1,
 
         col = {
-            active_border   = { colors = {"rgba(9e72c488)", "rgba(5c268cdd)"}, angle = 45 },
-            inactive_border = "rgba(59595955)",
+            active_border   = { colors = {colors.outline, colors.glow}, angle = 45 },
+            inactive_border = colors.inactive,
         },
         resize_on_border = true,
         allow_tearing = false, -- Please see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Tearing/ before you turn this on
         layout = "dwindle",
     },
 
+
     decoration = {
         rounding       = 12,
         rounding_power = 3,
 
         -- Change transparency of focused and unfocused windows
-        active_opacity   = 0.85,
+        active_opacity   = 0.9,
         inactive_opacity = 0.7,
         fullscreen_opacity = 1.0,
 
         shadow = {
             enabled      = true,
-            range        = 5,
+            range        = 3,
             render_power = 5,
-            color        = "rgba(97, 49, 127, .3)",
+            color        = colors.shadow,
         },
 
         blur = {
@@ -89,23 +92,6 @@ hl.animation({ leaf = "workspacesIn",  enabled = true,  speed = 1.21, bezier = "
 hl.animation({ leaf = "workspacesOut", enabled = true,  speed = 1.94, bezier = "almostLinear", style = "slide" })
 hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "quick" })
 
--- Ref https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
--- "Smart gaps" / "No gaps when only"
--- uncomment all if you wish to use that.
--- hl.workspace_rule({ workspace = "w[tv1]", gaps_out = 0, gaps_in = 0 })
--- hl.workspace_rule({ workspace = "f[1]",   gaps_out = 0, gaps_in = 0 })
--- hl.window_rule({
---     name  = "no-gaps-wtv1",
---     match = { float = false, workspace = "w[tv1]" },
---     border_size = 0,
---     rounding    = 0,
--- })
--- hl.window_rule({
---     name  = "no-gaps-f1",
---     match = { float = false, workspace = "f[1]" },
---     border_size = 0,
---     rounding    = 0,
--- })
 
 -- See https://wiki.hypr.land/Configuring/Layouts/Dwindle-Layout/ for more
 hl.config({
@@ -135,5 +121,3 @@ hl.config({
         disable_hyprland_logo   = true,  -- If true disables the random hyprland logo / anime girl background. :(
     },
 })
-
-hl.workspace_rule({workspace="special:magic", animation="slide top"})

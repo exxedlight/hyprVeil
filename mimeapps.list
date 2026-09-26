@@ -40,13 +40,13 @@ video/webm=mpv.desktop
 video/mp4=mpv.desktop
 video/vnd.radgamettools.bink=userapp-mpv-W22WJ3.desktop
 audio/mpeg=audacious.desktop
-
-
+x-scheme-handler/tg=userapp-AyuGram Desktop-7OTAW3.desktop
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-9B0AW3.desktop
 
 [Added Associations]
 text/plain=code.desktop;sublime_text.desktop;dev.zed.Zed.desktop;org.nomacs.ImageLounge.desktop;
 text/html=sublime_text.desktop;
-image/png=org.gnome.gThumb.desktop;phototonic.desktop;org.geeqie.Geeqie.desktop;org.kde.digikam.desktop;drawio.desktop;krita_png.desktop;org.nomacs.ImageLounge.desktop;
+image/png=krita_png.desktop;org.gnome.gThumb.desktop;phototonic.desktop;org.geeqie.Geeqie.desktop;org.kde.digikam.desktop;drawio.desktop;org.nomacs.ImageLounge.desktop;
 image/jpeg=krita_jpeg.desktop;org.nomacs.ImageLounge.desktop;org.gnome.gThumb.desktop;
 image/svg+xml=org.gnome.gThumb.desktop;org.nomacs.ImageLounge.desktop;
 image/gif=org.nomacs.ImageLounge.desktop;
@@ -81,3 +81,8 @@ video/mp4=org.gnome.gThumb.desktop;mpv.desktop;
 video/vnd.radgamettools.bink=userapp-mpv-W22WJ3.desktop;
 image/vnd.djvu+multipage=org.gnome.Evince.desktop;
 image/x-nikon-nef=org.gnome.gThumb.desktop;
+audio/x-opus+ogg=mpv.desktop;
+x-scheme-handler/tg=userapp-AyuGram Desktop-7OTAW3.desktop;
+x-scheme-handler/tonsite=userapp-AyuGram Desktop-9B0AW3.desktop;
+application/zip=org.gnome.FileRoller.desktop;dev.zed.Zed.desktop;
+application/typescript=code.desktop;
